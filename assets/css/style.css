@@ -5,3 +5,8 @@ img {
 body {
     text-align: center;
 }
+
+button {
+    height: 15px;
+    width: 15px;
+}
