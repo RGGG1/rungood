@@ -1,9 +1,13 @@
 img {
-    height: 400px;
+    width: 360px;
+    height: 700px;
+
    }
 
 body {
     text-align: center;
+    width: 400px;
+    height: 850px;
 }
 
 button {
