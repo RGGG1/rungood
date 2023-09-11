@@ -1,19 +1,29 @@
 img {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
    }
+
+.draw {
+    height: 55px;
+    width: 55px;
+    margin: 25px 25px 25px 25px;
+    border-color: green;
+    color: white;
+    border-radius: 25%;
+}
 
 body {
     text-align: center;
-    width: 280px;
+    width: 380px;
     margin: auto;
 }
 
 button {
-    height: 40px;
-    width: 40px;
-    margin: 15px 15px 15px 15px;
-    background-color: green;
+    height: 55px;
+    width: 55px;
+    margin: 25px 25px 25px 25px;
+    border-color: green;
+    background-color: black;
     color: white;
     border-radius: 25%;
 }
