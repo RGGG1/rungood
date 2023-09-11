@@ -1,11 +1,11 @@
 img {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
    }
 
 .draw {
-    height: 55px;
-    width: 55px;
+    height: 35px;
+    width: 35px;
     margin: 25px 25px 25px 25px;
     border-color: green;
     color: white;
