@@ -151,7 +151,7 @@ function imgchangedraw1() {
                 myImages1[7] = "assets/pp1.png";
                 myImages1[8] = "assets/d8.png";
                 myImages1[9] = "assets/d9.png";
-                myImages1[10] = "assets/d10.png";
+                myImages1[10] = "assets/10.png";
               var rnd9 = Math.floor(Math.random() * myImages1.length);
                 if (rnd9 == 0) {
                         rnd9 = 1;
