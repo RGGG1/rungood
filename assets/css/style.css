@@ -4,9 +4,9 @@ img {
    }
 
 .draw {
-    height: 50px;
-    width: 50px;
-    margin: 25px 25px 25px 25px;
+    height: 35px;
+    width: 35px;
+    margin: 15px 15px 15px 15px;
     border-color: green;
     color: white;
     border-radius: 25%;
@@ -14,7 +14,7 @@ img {
 
 body {
     text-align: center;
-    width: 380px;
+    width: 260px;
     margin: auto;
 }
 
