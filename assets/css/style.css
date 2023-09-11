@@ -5,11 +5,17 @@ img {
 
 body {
     text-align: center;
+    width: 280px;
+    margin: auto;
 }
 
 button {
-    height: 35px;
-    width: 35px;
+    height: 40px;
+    width: 40px;
+    margin: 15px 15px 15px 15px;
+    background-color: green;
+    color: white;
+    border-radius: 25%;
 }
 
 .jackpot {
