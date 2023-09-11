@@ -1,31 +1,19 @@
 img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
    }
 
 .draw {
-    height: 35px;
-    width: 35px;
-    margin: 15px 15px 15px 15px;
-    border-color: green;
-    color: white;
+    height: 45px;
+    width: 45px;
+    margin: 20px 20px 20px 20px;
     border-radius: 25%;
 }
 
 body {
     text-align: center;
-    width: 260px;
+    width: 320px;
     margin: auto;
-}
-
-button {
-    height: 55px;
-    width: 55px;
-    margin: 25px 25px 25px 25px;
-    border-color: green;
-    background-color: black;
-    color: white;
-    border-radius: 25%;
 }
 
 .jackpot {
