@@ -1,12 +1,12 @@
 img {
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
    }
 
 .draw {
-    height: 50px;
-    width: 50px;
-    margin: 10px 10px 10px 10px;
+    height: 55px;
+    width: 55px;
+    margin: 20px 20px 20px 20px;
     border-radius: 25%;
 }
 
