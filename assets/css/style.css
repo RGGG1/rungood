@@ -1,30 +1,48 @@
+ /* Style the navigation menu */
+ .topnav {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    
+  }
+  
 .header{
-    width: 360px;
+    width: 320px;
     display: block;
     margin-top: 10px;
    }
    .left {
     float: left;
-    width: 33.33%;
-    font-size: 25px;
+    width: 50%;
+    font-size: 20px;
    }
    .right {
     float: right;
-    width: 33.33%;
-    font-size: 25px;
-    color: green;
+    width: 50%;
+    font-size: 20px;
+    text-align: right;
    }
-   .center {
-    width: 33.33%;
-    display: inline-block;
-    font-size: 25px;
-   }
-
-#patHome {
-    width: 35px;
-    height: 35px;
+   /* Style the hamburger menu */
+   .topnav a.icon {
+    display: block;
     float: left;
-}
+    right: 0;
+    top: 0;
+  }
+
 
 img {
     width: 275px;

@@ -17,15 +17,30 @@
             <meta name="keywords" content="Mobile game, cool new apps, fun mobile games, auto battler">
     </head>
 
-    <body>
-        <div class="header">
-            <div class="left"><img src="/assets/pat.png" id="patHome"></div>
-            <div class="center"></div>
-            <div class="right">$30</div>
+ <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <!-- Top Navigation Menu -->
+ <div class="header">
+    <div class="topnav">
+        <a href="#home" class="active"></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
         </div>
-        <br>
-        
-        <div class="jackpot">
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+        <div class="right">$30</div>
+      </div>
+    
+</div>
+
+    <body>
+         <div class="jackpot">
             $1,000,000
         </div>
     i*

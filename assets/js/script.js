@@ -1,3 +1,13 @@
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  } 
+
 window.onload = choosePic;
 
 var myPix = new Array("assets/az1.png","assets/bayc1.png","assets/broh1.png", "assets/cdb1.png","assets/cp1.png","assets/meeg1.png", "assets/pp1.png","assets/d8.png","assets/d9.png");
