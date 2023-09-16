@@ -23,7 +23,6 @@
     width: 320px;
     display: block;
     margin-top: 10px;
-    background-color: white;
    }
    .left {
     float: left;
@@ -61,13 +60,11 @@ body {
     text-align: center;
     width: 320px;
     margin: auto;
-    background-color: black;
 }
 
 .jackpot {
     font-size: 48px;
     color: gold;
-    background-color: black;
 
 }
 
