@@ -1,3 +1,30 @@
+.parentSpace{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+   }
+   .left {
+    float: left;
+    width: 33.33%;
+    font-size: 25px;
+   }
+   .right {
+    float: right;
+    width: 33.33%;
+    font-size: 25px;
+    color: green;
+   }
+   .center {
+    width: 33.33%;
+    display: inline-block;
+    font-size: 25px;
+   }
+
+#patHome {
+    width: 35px;
+    height: 35px;
+}
+
 img {
     width: 275px;
     height: 275px;
@@ -20,3 +47,4 @@ body {
     font-size: 48px;
 
 }
+
