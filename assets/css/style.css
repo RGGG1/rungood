@@ -1,5 +1,5 @@
-.parentSpace{
-    width: 100%;
+.header{
+    width: 360px;
     display: block;
     margin-top: 10px;
    }
@@ -23,6 +23,7 @@
 #patHome {
     width: 35px;
     height: 35px;
+    float: left;
 }
 
 img {
