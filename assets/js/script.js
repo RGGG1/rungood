@@ -194,14 +194,30 @@ const max = 1150;
 winningNumber = Math.round(Math.random() * (max - min) + (min));
 console.log(winningNumber);
 
+let oldBalance = parseInt(document.getElementById("userBalance").innerText);
+console.log(oldBalance);
+let newWinBalance = (oldBalance + parseInt(win.value));
+let newLoseBalance = (oldBalance - parseInt(bet.value));
+
 if (playerWinChance >= winningNumber) {
     outcome = "You Win";
-    
+    document.getElementById("userBalance").innerText = newWinBalance;
 
   } else {
     outcome = "You Lose";
+    document.getElementById("userBalance").innerText = newLoseBalance;
 }
 
 console.log(outcome)
 }
 
+/* Anybet Balance Updates */
+
+function incrementBalance() {
+        let oldResult = parseInt(document.getElementById("userBalance").innerText);
+        if (oldResult == "0") {
+            document.getElementById("result").innerText = ++oldResult + "\nbanana";
+        } else {
+            document.getElementById("result").innerText = ++oldResult + "\nbananas";
+        }
+}
