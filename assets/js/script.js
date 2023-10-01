@@ -184,18 +184,17 @@ console.log(win.value)
 const oddsTotal = parseFloat(bet.value) + parseFloat(win.value);
 console.log(oddsTotal)
 
-const playerWinChance = ((parseFloat(bet.value) / oddsTotal)*100);
+const playerWinChance = ((parseFloat(bet.value) / oddsTotal)*1000);
 console.log(playerWinChance)
 
-const playerNumber = (playerWinChance * oddsTotal);
-console.log(playerNumber)
 
-const min = 0;
-const max = oddsTotal;
+
+const min = 1;
+const max = 1150;
 winningNumber = Math.round(Math.random() * (max - min) + (min));
 console.log(winningNumber);
 
-if (playerNumber <= winningNumber) {
+if (playerWinChance >= winningNumber) {
     outcome = "You Win";
     
 
