@@ -8,7 +8,7 @@
    }
    .left {
     display: inline-block;
-    width: 60px;
+    width: 80px;
     font-size: 20px;
     text-align: left;
     margin: auto;
@@ -24,7 +24,7 @@
 
    .right {
     display: inline-block;
-    width: 60px;
+    width: 80px;
     font-size: 20px;
     text-align: right;
     margin: auto;
@@ -88,4 +88,53 @@ body > .promoBox > img {
     height: 75px;
     width: 100%;
     margin: auto;
+}
+
+/* links don't change colour */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a > .millionBox {
+    height: 75px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+a > .gameBox {
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+a > .gameBox >img {
+    height: 75px;
+    width: 75px;
+    margin: auto;
+    border-radius: 25%;
+    display: block;
+}
+
+a > .promoBox {
+    height: 75px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+a > .promoBox > img {
+    height: 75px;
+    width: 100%;
+    margin: auto;
+}
+
+/* next we introduce the :link pseudo class */
+a:link {
+    color: black;
+}
+/* next the :visited pseudo class */
+a:visited {
+    color: black;
 }
