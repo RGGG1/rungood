@@ -184,28 +184,58 @@ console.log(win.value)
 const oddsTotal = parseFloat(bet.value) + parseFloat(win.value);
 console.log(oddsTotal)
 
-const playerWinChance = ((parseFloat(bet.value) / oddsTotal)*1000);
+const bexv = 0.85;
+
+const playerWinChance = ((parseFloat(bet.value) / oddsTotal)*1000)*bexv;
 console.log(playerWinChance)
 
+const hse = bet.value*(1-bexv).toFixed(2);
+console.log(hse);
+
+const walletWin = bet.value*(bexv).toFixed(2);
+console.log(walletWin);
+
+const pwd = (hse * 0.8).toFixed(2);
+console.log(pwd);
+
+const j1d = parseFloat(hse * 0.1).toFixed(2);
+console.log(j1d);
+
+const j2d = parseFloat(hse * 0.1).toFixed(2);
+console.log(j2d);
+
+console.log(parseFloat(j1d)+parseFloat(j2d));
 
 
 const min = 1;
-const max = 1150;
+const max = 1000;
 winningNumber = Math.round(Math.random() * (max - min) + (min));
 console.log(winningNumber);
 
-let oldBalance = parseInt(document.getElementById("userBalance").innerText);
+let oldBalance = parseFloat(document.getElementById("userBalance").innerText);
 console.log(oldBalance);
-let newWinBalance = (oldBalance + parseInt(win.value));
-let newLoseBalance = (oldBalance - parseInt(bet.value));
+let newWinBalance = (oldBalance + parseFloat(win.value));
+let newLoseBalance = (oldBalance - parseFloat(bet.value));
+document.getElementById("userBalance").innerText = newLoseBalance;
+
+let oldanybetWallet = parseFloat(document.getElementById("anybetWallet").innerText);
+console.log(oldanybetWallet);
+
+let pw = parseFloat(document.getElementById("pw").innerText).toFixed(2);
+console.log(pw);
+
+document.getElementById("pw").innerText = (parseFloat(pw) + parseFloat(pwd)).toFixed(2);
+
+document.getElementById("anybetWallet").innerText = parseFloat(oldanybetWallet) + parseFloat(walletWin);
 
 if (playerWinChance >= winningNumber) {
     outcome = "You Win";
     document.getElementById("userBalance").innerText = newWinBalance;
+    document.getElementById("anybetWallet").innerText = oldanybetWallet -win.value;
+    
 
   } else {
     outcome = "You Lose";
-    document.getElementById("userBalance").innerText = newLoseBalance;
 }
 
 console.log(outcome)
@@ -214,7 +244,7 @@ console.log(outcome)
 /* Anybet Balance Updates */
 
 function incrementBalance() {
-        let oldResult = parseInt(document.getElementById("userBalance").innerText);
+        let oldResult = parseFloat(document.getElementById("userBalance").innerText);
         if (oldResult == "0") {
             document.getElementById("result").innerText = ++oldResult + "\nbanana";
         } else {
