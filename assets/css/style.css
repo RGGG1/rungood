@@ -30,7 +30,7 @@
     margin: auto;
    }
    
-
+/* NFT Spin */
 img {
     width: 275px;
     height: 275px;
@@ -47,6 +47,8 @@ body {
     text-align: center;
     width: 320px;
     margin: auto;
+    background-color: black;
+    color: white;
 }
 
 .jackpot {
@@ -64,7 +66,7 @@ body > .millionBox {
 
 body > .gameBox {
     height: 100px;
-    width: 150px;
+    width: 80px;
     display: inline-block;
     margin-top: 25px;
 }
@@ -93,20 +95,22 @@ body > .promoBox > img {
 /* links don't change colour */
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 a > .millionBox {
     height: 75px;
     width: 100%;
     margin-top: 20px;
+    
 }
 
 a > .gameBox {
     height: 100px;
-    width: 150px;
+    width: 100px;
     display: inline-block;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 a > .gameBox >img {
@@ -132,9 +136,211 @@ a > .promoBox > img {
 
 /* next we introduce the :link pseudo class */
 a:link {
-    color: black;
+    color: white;
 }
 /* next the :visited pseudo class */
 a:visited {
+    color: white;
+}
+
+
+/* Anybet */
+
+body > #anybetPage {
+    background-color: black;
+}
+
+.bet-box {
+    position: static;
+    width: 320px;
+    padding: 25px;
+    margin: auto;
+    background: rgba(0,0,0,.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  ::placeholder {
+    color: lightgray;
+  }
+  
+       
+  .bet-box .user-box {
+    position: relative;
+    text-align: center;
+  }
+
+ .bet-box .user-box2 {
+    position: relative;
+    text-align: center;
+  }
+  
+  .bet-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    text-align: center;
+    
+  }
+
+  .bet-box .user-box2 input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    text-align: center;
+  }
+
+  
+  
+  .bet-box .user-box input:focus ~ label,
+  .bet-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: white;
+    font-size: 50px;
+  }
+
+  .bet-box .user-box2 input:focus ~ label,
+  .bet-box .user-box2 input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: white;
+    font-size: 50px;
+  }
+  
+  .bet-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 25px 25px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+  }
+  
+  .bet-box a:hover {
+    background: white;
     color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px white,
+                0 0 25px white,
+                0 0 50px white,
+                0 0 100px white;
+  }
+  
+  .bet-box a span {
+    position: absolute;
+    display: block;
+  }
+  
+  .bet-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, white);
+    animation: btn-anim1 1s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .bet-box a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, white);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .bet-box a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, white);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .bet-box a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, white);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
+  }
+  
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
+
+.anybetFieldTitles {
+    font-size: 24px;
+}
+
+#win, #lose {
+font-size: 50px;
 }
