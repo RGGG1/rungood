@@ -80,15 +80,25 @@ body > .gameBox {
     height: 128px;
     width: 40%;
     display: inline-block;
+    margin-top: 10px;
 }
 
 body > .gameBox >img {
-    height: 75px;
-    width: 75px;
-    display: inline-block;
+    height: 75%;
+    width: 75%;
+    margin: auto;
+    border-radius: 25%;
 }
 
 body > .promoBox {
     height: 75px;
     width: 100%;
+    margin-top: 20px;
+
+}
+
+body > .promoBox > img {
+    height: 75px;
+    width: 100%;
+    margin: auto;
 }
