@@ -181,18 +181,18 @@ console.log(bet.value)
 const win = document.getElementById("win");
 console.log(win.value)
 
-const oddsTotal = parseFloat(bet.value) + parseFloat(win.value);
+const oddsTotal = (parseFloat(bet.value) + parseFloat(win.value)).toFixed(2);
 console.log(oddsTotal)
 
 const bexv = 0.85;
 
-const playerWinChance = ((parseFloat(bet.value) / oddsTotal)*1000)*bexv;
+const playerWinChance = (1 / (2 + (1-bexv)))*1000;
 console.log(playerWinChance)
 
-const hse = bet.value*(1-bexv).toFixed(2);
+const hse = (bet.value*(1-bexv)).toFixed(2);
 console.log(hse);
 
-const walletWin = bet.value*(bexv).toFixed(2);
+const walletWin = (bet.value*(bexv)).toFixed(2);
 console.log(walletWin);
 
 const pwd = (hse * 0.8).toFixed(2);
@@ -204,7 +204,7 @@ console.log(j1d);
 const j2d = parseFloat(hse * 0.1).toFixed(2);
 console.log(j2d);
 
-console.log(parseFloat(j1d)+parseFloat(j2d));
+console.log((parseFloat(j1d)+parseFloat(j2d)).toFixed(2));
 
 
 const min = 1;
@@ -212,42 +212,47 @@ const max = 1000;
 winningNumber = Math.round(Math.random() * (max - min) + (min));
 console.log(winningNumber);
 
-let oldBalance = parseFloat(document.getElementById("userBalance").innerText);
+let oldBalance = (parseFloat(document.getElementById("userBalance").innerText)).toFixed(2);
 console.log(oldBalance);
-let newWinBalance = (oldBalance + parseFloat(win.value));
-let newLoseBalance = (oldBalance - parseFloat(bet.value));
-document.getElementById("userBalance").innerText = newLoseBalance;
+let newWinBalance = (parseFloat(oldBalance) + parseFloat(win.value));
+let newLoseBalance = (parseFloat(oldBalance) - parseFloat(bet.value));
 
-let oldanybetWallet = parseFloat(document.getElementById("anybetWallet").innerText);
+
+let oldanybetWallet = (parseFloat(document.getElementById("anybetWallet").innerText)).toFixed(2);
 console.log(oldanybetWallet);
+
+
 
 let pw = parseFloat(document.getElementById("pw").innerText).toFixed(2);
 console.log(pw);
 
 document.getElementById("pw").innerText = (parseFloat(pw) + parseFloat(pwd)).toFixed(2);
 
-document.getElementById("anybetWallet").innerText = parseFloat(oldanybetWallet) + parseFloat(walletWin);
+let j1 = parseFloat(document.getElementById("j1").innerText).toFixed(2);
+console.log(j1);
+
+document.getElementById("j1").innerText = (parseFloat(j1) + parseFloat(j1d)).toFixed(2);
+
+let j2 = parseFloat(document.getElementById("j2").innerText).toFixed(2);
+console.log(j2);
+
+document.getElementById("j2").innerText = (parseFloat(j2) + parseFloat(j2d)).toFixed(2);
+
 
 if (playerWinChance >= winningNumber) {
     outcome = "You Win";
     document.getElementById("userBalance").innerText = newWinBalance;
-    document.getElementById("anybetWallet").innerText = oldanybetWallet -win.value;
+    document.getElementById("anybetWallet").innerText = (parseFloat(oldanybetWallet) - (parseFloat(win.value) + parseFloat(hse))).toFixed(2);
     
 
   } else {
     outcome = "You Lose";
+    document.getElementById("userBalance").innerText = newLoseBalance;
+    document.getElementById("anybetWallet").innerText = (parseFloat(oldanybetWallet) + (parseFloat(bet.value) - parseFloat(hse))).toFixed(2);
+    
 }
 
 console.log(outcome)
 }
 
 /* Anybet Balance Updates */
-
-function incrementBalance() {
-        let oldResult = parseFloat(document.getElementById("userBalance").innerText);
-        if (oldResult == "0") {
-            document.getElementById("result").innerText = ++oldResult + "\nbanana";
-        } else {
-            document.getElementById("result").innerText = ++oldResult + "\nbananas";
-        }
-}
