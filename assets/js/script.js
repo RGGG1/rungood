@@ -254,5 +254,3 @@ if (playerWinChance >= winningNumber) {
 
 console.log(outcome)
 }
-
-/* Anybet Balance Updates */
