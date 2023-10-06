@@ -107,7 +107,7 @@ a > .gameBox1 {
 }
 
 a > .gameBox1 >img {
-    height: 180px;
+    height: 240px;
     width: 280px;
     margin: auto;
     border-radius: 25%;
@@ -115,34 +115,35 @@ a > .gameBox1 >img {
 }
 
 a > .gameBox2 {
-    height: 320px;
-    width: 130px;
-    margin: 10px 10px 10px 10px;
-    float: left;
+    height: 250px;
+    width: 140px;
+    margin: auto;
+    display: inline-block;
 }
 
 a > .gameBox2 >img {
-    height: 300px;
+    height: 240px;
     width: 130px;
     margin: auto;
     border-radius: 5%;
     display: block;
 }
 
-a > .gameBox2Small {
-    height: 320px;
-    width: 130px;
-    margin: 10px 10px 10px 10px;
-    float: right;
+.gameBox2Small {
+    height: 250px;
+    width: 140px;
+    margin: auto;
+    display: inline-block;
 }
 
-a > .gameBox2Small >img {
-    height: 300px;
-    width: 130px;
-    margin: auto;
-    border-radius: 5%;
-    display: block;
+.gameBox3Block {
+    height: auto;
+    width: 300px;
+    margin: 50px 0px 25px 0px;
+    display: inline-block;
 }
+
+
 
 a > .gameBox3 {
     height: 80px;
@@ -195,16 +196,16 @@ a > .gameBox4 >img {
 }
 
 a > .gameBox {
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 140px;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
-    vertical-align: top;
+    margin: auto;
+    text-align: center;
 }
 
 a > .gameBox >img {
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     margin: auto;
     border-radius: 5%;
     display: block;
