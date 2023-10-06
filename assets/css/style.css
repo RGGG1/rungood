@@ -99,18 +99,79 @@ a {
     color: white;
 }
 
-a > .gameBox {
-    height: 120px;
+a > .gameBox1 {
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+
+a > .gameBox1 >img {
+    height: 180px;
+    width: 280px;
+    margin: auto;
+    border-radius: 25%;
+    display: block;
+}
+
+a > .gameBox2 {
+    height: 360px;
     width: 120px;
     display: inline-block;
     margin: 10px 10px 10px 10px;
+}
+
+a > .gameBox2 >img {
+    height: 340px;
+    width: 150px;
+    margin: auto;
+    border-radius: 5%;
+    display: block;
+}
+
+a > .gameBox3 {
+    height: 120px;
+    width: 300px;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+
+a > .gameBox3 >img {
+    height: 100px;
+    width: 280px;
+    margin: auto;
+    border-radius: 2.5%;
+    display: block;
+}
+
+a > .gameBox4 {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+}
+
+a > .gameBox4 >img {
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    border-radius: 2.5%;
+    display: block;
+}
+
+a > .gameBox {
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    vertical-align: top;
 }
 
 a > .gameBox >img {
     height: 90px;
     width: 90px;
     margin: auto;
-    border-radius: 25%;
+    border-radius: 5%;
     display: block;
 }
 
@@ -139,6 +200,54 @@ a:visited {
 
 
 /* Anybet */
+
+.anybetLogoContainer {
+    background-color: black;
+    display: flex;
+    height: 100px;
+    width: 250px;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .anybetHeading {
+    font-size: 36px;
+    text-shadow: 4px 4px 0px white;
+    mix-blend-mode: screen;
+    animation: fadeIn 1.5s linear alternate infinite;
+  }
+  
+  @keyframes fadeIn {
+      0% {
+          opacity: 0.1
+      }
+  
+    25% {
+          opacity: 0.25;
+      }
+    
+      50% {
+          opacity: 0.5;
+      }
+    
+    100% {
+          opacity: 1;
+      }
+    
+    50% {
+          opacity: 0.5;
+      }
+    
+     25% {
+          opacity: 0.25;
+      }
+    
+    0% {
+          opacity: 0.1
+      }
+    
+  }
 
 body > #anybetPage {
     background-color: black;
@@ -338,3 +447,22 @@ input[type=number] {
 #win, #lose {
 font-size: 50px;
 }
+
+/*$1,000,000 Spin Text*/
+.waviy {
+    position: relative;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: orange;
+    text-transform: uppercase;
+    animation: flip 5s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
