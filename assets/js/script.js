@@ -26,6 +26,20 @@ function imgchangedraw1() {
         }
 
         document.getElementById("gen-img1").src = myImages1[rnd];
+
+        var i1 = document.getElementById("gen-img").src;
+        var i2 = document.getElementById("gen-img1").src;
+        var i3 = 3
+            
+                if (i1 === i2) {
+                    i3 = 1;                
+                  } 
+                
+                    else {
+                        i3 = 0;
+                }
+
+                console.log(i3);
     }
 
     function imgchangedraw2() {
@@ -194,7 +208,10 @@ function imgchangedraw1() {
                 }
         
                 document.getElementById("gen-img9").src = myImages1[rnd9];
+
+                
             }
+
 
 
 /* Anybet */
