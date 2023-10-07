@@ -212,7 +212,7 @@ console.log(oddsTotal)
 
 const bexv = 0.85;
 
-const playerWinChance = (1 / (2 + (1-bexv)))*1000;
+const playerWinChance = ((bet.value / oddsTotal ) * bexv) *1000;
 console.log(playerWinChance)
 
 const hse = (bet.value*(1-bexv)).toFixed(2);
