@@ -138,7 +138,7 @@ a > .gameBox2 >img {
 
 .gameBox3Block {
     height: auto;
-    width: 300px;
+    width: 320px;
     margin: 50px 0px 25px 0px;
     display: inline-block;
 }
@@ -150,9 +150,6 @@ a > .gameBox3 {
     width: 300px;
     display: inline-block;
     margin: 10px 10px 10px 10px;
-    outline-style: solid;
-    outline-color: grey;
-    border-radius: 2.5%;
 }
 
 a > .gameBox3 >img {
@@ -169,7 +166,7 @@ a > .gameBox3 > .anybetHeading {
     font-family: sans-serif;
     text-shadow: 4px 4px 0px white;
     mix-blend-mode: screen;
-    animation: fadeIn 5s linear alternate infinite;
+    animation: fadeIn 1.5s linear alternate infinite;
     color: black;
     text-align: center;
     height: 75px;
@@ -246,7 +243,7 @@ a:visited {
   }
   
   .anybetHeading {
-    font-size: 56px;
+    font-size: 72px;
     font-family: sans-serif;
     text-shadow: 4px 4px 0px white;
     mix-blend-mode: screen;
@@ -257,7 +254,11 @@ a:visited {
   }
   
   @keyframes fadeIn {
-      0% {
+    0% {
+        opacity: 0
+    } 
+    
+    10% {
           opacity: 0.1
       }
   
@@ -281,9 +282,13 @@ a:visited {
           opacity: 0.25;
       }
     
-    0% {
+    10% {
           opacity: 0.1
       }
+    
+    0% {
+        opacity: 0
+    } 
     
   }
 
@@ -515,4 +520,111 @@ font-size: 50px;
     width: 25px;
     height: 25px;
     background-image: "";
+  }
+
+  /*Anybet homepage button*/
+
+  #greyText {
+    color:grey;
+  }
+
+  .bet-box1 {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+
+  }
+
+  .bet-box1 form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s; 
+    text-align: center;
+}
+  
+    
+  .bet-box1 a span {
+    position: absolute;
+    display: block;
+  }
+  
+  .bet-box1 a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, white);
+    animation: btn-anim1 2.5s linear infinite;
+  }
+  
+  @keyframes btn-anim1 {
+    0% {
+      left: -100%;
+    }
+    50%,100% {
+      left: 100%;
+    }
+  }
+  
+  .bet-box1 a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, white);
+    animation: btn-anim2 2.5s linear infinite;
+    animation-delay: .25s
+  }
+  
+  @keyframes btn-anim2 {
+    0% {
+      top: -100%;
+    }
+    50%,100% {
+      top: 100%;
+    }
+  }
+  
+  .bet-box1 a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, white);
+    animation: btn-anim3 2.5s linear infinite;
+    animation-delay: .5s
+  }
+  
+  @keyframes btn-anim3 {
+    0% {
+      right: -100%;
+    }
+    50%,100% {
+      right: 100%;
+    }
+  }
+  
+  .bet-box1 a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, white);
+    animation: btn-anim4 2.5s linear infinite;
+    animation-delay: .75s
+  }
+  
+  @keyframes btn-anim4 {
+    0% {
+      bottom: -100%;
+    }
+    50%,100% {
+      bottom: 100%;
+    }
   }
