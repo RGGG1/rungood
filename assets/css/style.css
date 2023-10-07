@@ -510,3 +510,9 @@ font-size: 50px;
   #anybetResuwltA {
     animation: infinite;
   }
+
+  .randoImage {
+    width: 25px;
+    height: 25px;
+    background-image: "";
+  }

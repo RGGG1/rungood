@@ -242,7 +242,7 @@ var anybetResultAnimation = document.getElementById("anybetResultA");
     
 
 if (playerWinChance >= winningNumber) {
-    anybetResultAnimation.className = '';
+    anybetResultAnimation.className = 'randoImage';
     document.getElementById("anybetResult").innerText = "You Win";
     document.getElementById("anybetResultA").classList.add('animate__animated', 'animate__bounce');
     document.getElementById("userBalance").innerText = newWinBalance;
@@ -250,7 +250,7 @@ if (playerWinChance >= winningNumber) {
     
 
   } else {
-    anybetResultAnimation.className = '';
+    anybetResultAnimation.className = 'randoImage';
     document.getElementById("anybetResult").innerText = "You Lose";
     document.getElementById("anybetResultA").classList.add('animate__animated', 'animate__flash');
     document.getElementById("userBalance").innerText = newLoseBalance;
