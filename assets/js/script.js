@@ -1,5 +1,5 @@
 
-window.onload = choosePic;
+window.onload = choosePic; imgchangedraw1(); imgchangedraw2(); imgchangedraw3(); imgchangedraw4(); imgchangedraw5(); imgchangedraw6(); imgchangedraw7(); imgchangedraw8(); imgchangedraw9();;
 
 var myPix = new Array("assets/az1.png","assets/bayc1.png","assets/broh1.png", "assets/cdb1.png","assets/cp1.png","assets/meeg1.png", "assets/pp1.png","assets/d8.png","assets/d9.png");
 
