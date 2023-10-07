@@ -237,16 +237,19 @@ let j2 = parseFloat(document.getElementById("j2").innerText).toFixed(2);
 console.log(j2);
 
 document.getElementById("j2").innerText = (parseFloat(j2) + parseFloat(j2d)).toFixed(2);
-
+    
 
 if (playerWinChance >= winningNumber) {
-    outcome = "You Win";
+    document.getElementById("anybetResult").innerText = "You Win";
+    document.getElementById("anybetResult").classList.add('animate__animated', 'animate__flash');
     document.getElementById("userBalance").innerText = newWinBalance;
     document.getElementById("anybetWallet").innerText = (parseFloat(oldanybetWallet) - (parseFloat(win.value) + parseFloat(hse))).toFixed(2);
     
 
   } else {
-    outcome = "You Lose";
+    document.getElementById("anybetResult").innerText = "You Lose";
+    document.getElementById("anybetResult").classList.add('animate__animated', 'animate__flash');
+    console.log(anybetResultAnimation);
     document.getElementById("userBalance").innerText = newLoseBalance;
     document.getElementById("anybetWallet").innerText = (parseFloat(oldanybetWallet) + (parseFloat(bet.value) - parseFloat(hse))).toFixed(2);
     

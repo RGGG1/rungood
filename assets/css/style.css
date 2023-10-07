@@ -494,7 +494,7 @@ font-size: 50px;
     position: relative;
     display: inline-block;
     font-size: 40px;
-    color: orange;
+    color: white;
     text-transform: uppercase;
     animation: flip 5s infinite;
     animation-delay: calc(.2s * var(--i))
@@ -503,4 +503,10 @@ font-size: 50px;
     0%,80% {
       transform: rotateY(360deg) 
     }
+  }
+
+
+  /*Anybet Results Animation*/
+  #anybetResuwltA {
+    animation: infinite;
   }
