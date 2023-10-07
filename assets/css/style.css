@@ -32,13 +32,13 @@
    
 /* NFT Spin */
 img {
-    width: 275px;
-    height: 275px;
+    width: 225px;
+    height: 225px;
    }
 
 .draw {
-    height: 55px;
-    width: 55px;
+    height: 45px;
+    width: 45px;
     margin: 20px 20px 20px 20px;
     border-radius: 25%;
 }
@@ -326,7 +326,7 @@ body > #anybetPage {
   .bet-box .user-box input {
     width: 100%;
     padding: 10px 0;
-    font-size: 50px;
+    font-size: 52px;
     color: #fff;
     margin-bottom: 40px;
     border: none;
@@ -636,3 +636,18 @@ font-size: 50px;
       bottom: 100%;
     }
   }
+
+  /* NFTSpin layouts */
+
+  .bet-box .user-box-nftSpin input {
+    width: 100%;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    text-align: center;
+  }
+
