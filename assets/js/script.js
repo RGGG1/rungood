@@ -203,7 +203,15 @@ function imgchangedraw9() {
 
 /* NFTSpin Match Counter */
 
+
+
+
 function nftSpinTotalMatch() {
+
+    let oldBalance = (parseFloat(document.getElementById("userBalance").innerText)).toFixed(2);
+    console.log(oldBalance)
+    const spin = document.getElementById("spin");
+    console.log(spin.value)
 
         var i1 = document.getElementById("gen-img").src;
         var i2 = document.getElementById("gen-img1").src; 
@@ -312,9 +320,46 @@ function nftSpinTotalMatch() {
                 var nftSpinTotalMatchResult = (parseFloat(old1Score) + parseFloat(old2Score) + parseFloat(old3Score) + parseFloat(old4Score) + parseFloat(old5Score) + parseFloat(old6Score) + parseFloat(old7Score) + parseFloat(old8Score) + parseFloat(old9Score));
                 document.getElementById("matchNumber").innerText = nftSpinTotalMatchResult;
 
+                if(nftSpinTotalMatchResult === 0) {
+                    document.getElementById("userBalance").innerText = (oldBalance - spin.value);
+                }
+
+                if(nftSpinTotalMatchResult === 1) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
+                }
+
+                if(nftSpinTotalMatchResult === 2) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
+                }
+
+                if(nftSpinTotalMatchResult === 3) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
+                }
+
+                if(nftSpinTotalMatchResult === 4) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
+                }
+
+                if(nftSpinTotalMatchResult === 5) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
+                }
+
+                if(nftSpinTotalMatchResult === 6) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
+                }
+
+                if(nftSpinTotalMatchResult === 7) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
+                }
+
+                if(nftSpinTotalMatchResult === 8) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
+                }
+
+                if(nftSpinTotalMatchResult === 9) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
+                }
             }
-
-
 
 /* Anybet */
 
