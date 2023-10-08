@@ -26,11 +26,6 @@ function imgchangedraw1() {
         }
 
         document.getElementById("gen-img1").src = myImages1[rnd];
-
-        var i1 = document.getElementById("gen-img").src;
-        
-
-
     }
 
     function imgchangedraw2() {
@@ -53,33 +48,6 @@ function imgchangedraw1() {
     
             document.getElementById("gen-img2").src = myImages1[rnd2];
 
-        var i1 = document.getElementById("gen-img").src;
-        var i3 = document.getElementById("gen-img2").src; 
-        
-        let old2Score = "0";
-        var i2 = document.getElementById("gen-img1").src; 
-        
-        let old1Score = "0";
-            
-                if (i1 === i2) {
-                    old1Score = ++old1Score;
-                    console.log(old1Score);            
-                  } 
-
-                else {
-                    console.log(old1Score); 
-                } 
-            
-                if (i1 === i3) {
-                    old2Score = ++old2Score;
-                    console.log(old2Score);             
-                  } 
-
-                else {
-                    console.log(old2Score);
-                } 
-
-                console.log(parseFloat(old1Score) + parseFloat(old2Score));
         }
 
     function imgchangedraw3() {
@@ -209,7 +177,7 @@ function imgchangedraw1() {
                 document.getElementById("gen-img8").src = myImages1[rnd8];
             }
 
-    function imgchangedraw9() {
+function imgchangedraw9() {
 
             var myImages1 = new Array();
                 myImages1[1] = "assets/cp1.png";
@@ -230,6 +198,120 @@ function imgchangedraw1() {
                 document.getElementById("gen-img9").src = myImages1[rnd9];
 
                 
+            }
+
+
+/* NFTSpin Match Counter */
+
+function nftSpinTotalMatch() {
+
+        var i1 = document.getElementById("gen-img").src;
+        var i2 = document.getElementById("gen-img1").src; 
+        var i3 = document.getElementById("gen-img2").src; 
+        var i4 = document.getElementById("gen-img3").src; 
+        var i5 = document.getElementById("gen-img4").src; 
+        var i6 = document.getElementById("gen-img5").src; 
+        var i7 = document.getElementById("gen-img6").src; 
+        var i8 = document.getElementById("gen-img7").src; 
+        var i9 = document.getElementById("gen-img8").src; 
+        var i10 = document.getElementById("gen-img9").src; 
+        
+        let old1Score = "0";
+        let old2Score = "0";
+        let old3Score = "0";
+        let old4Score = "0";
+        let old5Score = "0";
+        let old6Score = "0";
+        let old7Score = "0";
+        let old8Score = "0";
+        let old9Score = "0";
+        
+                    
+                if (i1 === i2) {
+                    old1Score = ++old1Score;
+                    console.log(old1Score);            
+                  } 
+
+                else {
+                    console.log(old1Score); 
+                } 
+            
+                if (i1 === i3) {
+                    old2Score = ++old2Score;
+                    console.log(old2Score);             
+                  } 
+
+                else {
+                    console.log(old2Score);
+                } 
+
+                if (i1 === i4) {
+                    old3Score = ++old3Score;
+                    console.log(old3Score);             
+                  } 
+
+                else {
+                    console.log(old3Score);
+                } 
+
+                if (i1 === i5) {
+                    old4Score = ++old4Score;
+                    console.log(old4Score);             
+                  } 
+
+                else {
+                    console.log(old4Score);
+                } 
+
+                if (i1 === i6) {
+                    old5Score = ++old5Score;
+                    console.log(old5Score);             
+                  } 
+
+                else {
+                    console.log(old5Score);
+                } 
+
+                if (i1 === i7) {
+                    old6Score = ++old6Score;
+                    console.log(old6Score);             
+                  } 
+
+                else {
+                    console.log(old6Score);
+                } 
+
+                if (i1 === i8) {
+                    old7Score = ++old7Score;
+                    console.log(old7Score);             
+                  } 
+
+                else {
+                    console.log(old7Score);
+                } 
+
+                if (i1 === i9) {
+                    old8Score = ++old8Score;
+                    console.log(old8Score);             
+                  } 
+
+                else {
+                    console.log(old8Score);
+                } 
+
+                if (i1 === i10) {
+                    old9Score = ++old9Score;
+                    console.log(old9Score);             
+                  } 
+
+                else {
+                    console.log(old9Score);
+                } 
+
+                console.log(parseFloat(old1Score) + parseFloat(old2Score) + parseFloat(old3Score) + parseFloat(old4Score) + parseFloat(old5Score) + parseFloat(old6Score) + parseFloat(old7Score) + parseFloat(old8Score) + parseFloat(old9Score));
+                var nftSpinTotalMatchResult = (parseFloat(old1Score) + parseFloat(old2Score) + parseFloat(old3Score) + parseFloat(old4Score) + parseFloat(old5Score) + parseFloat(old6Score) + parseFloat(old7Score) + parseFloat(old8Score) + parseFloat(old9Score));
+                document.getElementById("matchNumber").innerText = nftSpinTotalMatchResult;
+
             }
 
 
