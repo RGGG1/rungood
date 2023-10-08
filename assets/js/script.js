@@ -28,18 +28,9 @@ function imgchangedraw1() {
         document.getElementById("gen-img1").src = myImages1[rnd];
 
         var i1 = document.getElementById("gen-img").src;
-        var i2 = document.getElementById("gen-img1").src;
-        var i3 = 3
-            
-                if (i1 === i2) {
-                    i3 = 1;                
-                  } 
-                
-                    else {
-                        i3 = 0;
-                }
+        
 
-                console.log(i3);
+
     }
 
     function imgchangedraw2() {
@@ -61,6 +52,34 @@ function imgchangedraw1() {
             }
     
             document.getElementById("gen-img2").src = myImages1[rnd2];
+
+        var i1 = document.getElementById("gen-img").src;
+        var i3 = document.getElementById("gen-img2").src; 
+        
+        let old2Score = "0";
+        var i2 = document.getElementById("gen-img1").src; 
+        
+        let old1Score = "0";
+            
+                if (i1 === i2) {
+                    old1Score = ++old1Score;
+                    console.log(old1Score);            
+                  } 
+
+                else {
+                    console.log(old1Score); 
+                } 
+            
+                if (i1 === i3) {
+                    old2Score = ++old2Score;
+                    console.log(old2Score);             
+                  } 
+
+                else {
+                    console.log(old2Score);
+                } 
+
+                console.log(parseFloat(old1Score) + parseFloat(old2Score));
         }
 
     function imgchangedraw3() {
@@ -83,6 +102,7 @@ function imgchangedraw1() {
     
             document.getElementById("gen-img3").src = myImages1[rnd3];
         }
+
 
     function imgchangedraw4() {
 
