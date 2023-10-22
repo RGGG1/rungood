@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
             integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
         <link rel="stylesheet" href="assets/css/style.css">
                 
         <!-- Description, Kyewords, Title -->
@@ -19,20 +20,20 @@
 
  <!-- Header -->
  <header>
- <div class="header">
-    <div class="left"><a href="index.html"><i class="fa-solid fa-house"></i></a></div>
-    <div class="center">LOCOSINO</div>
-    <div class="right">$30</div>
- </div>
-</header>
+    <div class="header">
+        <div class="left"><a href="index.html"><i class="fa-solid fa-house"></i></a></div>
+        <div class="center">LOCOSINO</div>
+    <div class="right">$<span id="userBalance">1000</span></div>
+    </div>
+   </header>
 
 <body>
 
 <section>
     <body id="rubicPage">
        
-     <h1 class="rubicHeading">Rube-Cube</h1>
-     <h4>Unify the Cube, Win the Prize</h4>
+     <h1 class="rubicHeading">NFTwist</h1>
+     <h4>Unify the PFP, Win the Prize</h4>
    
     </section>
 
@@ -47,14 +48,18 @@
 
 <section>
     <div class="bet-box">
-        <form>
-                   
+        <form>                   
+        <div class="user-box-nftSpin">
+            <input type="number" name="" required placeholder="Bet: $10" id="spin">                    
+        </div>
+
+
           <a href="#" type="submit" onclick="betWin()">
             <span></span>
             <span></span>
             <span></span>
             <span></span>
-            BET
+            TWIST
           </a>          
         </form>
     </div>
@@ -72,11 +77,9 @@
     <br>
     Half and Half: X
     <br>
+    <br>
     </section>
-    <br>
-    <br>
-
-   </section>
+    
 
         
         <script src="assets/js/script.js"></script>
