@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
             integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
         <link rel="stylesheet" href="assets/css/style.css">
                 
         <!-- Description, Kyewords, Title -->
@@ -19,13 +20,45 @@
 
  <!-- Header -->
  <header>
- <div class="header">
-    <div class="left"><a href="index.html"><i class="fa-solid fa-house"></i></a></div>
-    <div class="center">SuperFlip</div>
-    <div class="right">$30</div>
- </div>
-</header>
-    
+    <div class="header">
+        <div class="left"><a href="index.html"><i class="fa-solid fa-house"></i></a></div>
+        <div class="center">LOCOSINO</div>
+    <div class="right">$<span id="userBalance">1000</span></div>
+    </div>
+   </header>
+   
+   
+   <section>
+   <body id="superflipPage">
+      
+    <h1 class="superflipHeading">SUPERFLIP</h1>
+    <h4>Win up to 10x your bet</h4>
+  
+   </section>
+   
+<section>
+    <div class="bet-box">
+        <form>
+            <p class="anybetFieldTitles">How much do you want to flip for?</p>
+          <div class="user-box">
+            <input type="number" name="" required placeholder="$10" id="bet">
+            
+          </div>
+
+        <section class="anybetRes">
+            <h2 id="anybetResultA" class=""><span id="anybetResult">__</span></h2>
+        </section>
+            <br>
+          <a href="#" type="submit" onclick="betWin()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            FLIP
+          </a>          
+        </form>
+    </div>
+</section>
 
     <body>
         

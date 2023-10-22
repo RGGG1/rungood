@@ -653,3 +653,33 @@ font-size: 50px;
     color: grey;
   }
 
+/* Rubic */
+
+.rubic1 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    display: inline-block;
+
+}
+
+.rubic2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    display: inline-block;
+}
+
+.rubic3 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.rubic4 {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    display: inline-block;
+}
