@@ -17,9 +17,11 @@
    .center {
     display: inline-block;
     width: 140px;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
     margin: auto;
+    font-family: orbitron;
+    color: hsl(0, 100%, 31%);
    }
 
    .right {
@@ -28,6 +30,7 @@
     font-size: 20px;
     text-align: right;
     margin: auto;
+    font-family: sans-serif;
    }
    
 /* NFT Spin */
@@ -50,12 +53,16 @@ body {
     margin: auto;
     background-color: black;
     color: white;
+    font-family: orbitron;
 }
 
 .jackpot {
     font-size: 48px;
 }
 
+a > .betButton {
+    color:hsl(0, 100%, 31%);
+}
 
 /* Home page */
 /* gameboxes */
@@ -183,13 +190,14 @@ a > .gameBox4 {
     width: 80px;
     display: inline-block;
     margin: 10px 10px 10px 10px;
+    border-radius: 50%;
 }
 
 a > .gameBox4 >img {
     height: 70px;
     width: 70px;
     margin: auto;
-    border-radius: 2.5%;
+    border-radius: 50%;
     display: block;
 }
 
@@ -244,9 +252,9 @@ a:visited {
   }
   
   .anybetHeading {
-    font-size: 72px;
+    font-size: 64px;
     font-family: sans-serif;
-    text-shadow: 4px 4px 0px white;
+    text-shadow: 4px 4px 0px hsl(0, 100%, 31%);
     mix-blend-mode: screen;
     animation: fadeIn 5s linear alternate infinite;
     color: black;
@@ -255,20 +263,9 @@ a:visited {
   }
   
   @keyframes fadeIn {
-    0% {
-        opacity: 0
-    } 
-    
-    10% {
-          opacity: 0.1
-      }
-  
-    25% {
-          opacity: 0.25;
-      }
-    
+      
       50% {
-          opacity: 0.5;
+          opacity: 0.75;
       }
     
     100% {
@@ -276,20 +273,9 @@ a:visited {
       }
     
     50% {
-          opacity: 0.5;
+          opacity: 0.75;
       }
     
-     25% {
-          opacity: 0.25;
-      }
-    
-    10% {
-          opacity: 0.1
-      }
-    
-    0% {
-        opacity: 0
-    } 
     
   }
 
@@ -373,7 +359,7 @@ body > #anybetPage {
     position: relative;
     display: inline-block;
     padding: 15px 15px;
-    color: white;
+    color: hsl(0, 100%, 31%);
     font-size: 24px;
     text-decoration: none;
     text-transform: uppercase;
@@ -384,13 +370,13 @@ body > #anybetPage {
   }
   
   .bet-box a:hover {
-    background: white;
+    background: hsl(0, 100%, 31%);
     color: black;
     border-radius: 5px;
-    box-shadow: 0 0 5px white,
-                0 0 25px white,
-                0 0 50px white,
-                0 0 100px white;
+    box-shadow: 0 0 5px hsl(0, 100%, 31%),
+                0 0 25px hsl(0, 100%, 31%),
+                0 0 50px hsl(0, 100%, 31%),
+                0 0 100px hsl(0, 100%, 31%);
   }
   
   .bet-box a span {
@@ -403,7 +389,7 @@ body > #anybetPage {
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, white);
+    background: linear-gradient(90deg, transparent, hsl(0, 100%, 31%));
     animation: btn-anim1 2.5s linear infinite;
   }
   
@@ -421,7 +407,7 @@ body > #anybetPage {
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, white);
+    background: linear-gradient(180deg, transparent, hsl(0, 100%, 31%));
     animation: btn-anim2 2.5s linear infinite;
     animation-delay: .25s
   }
@@ -440,7 +426,7 @@ body > #anybetPage {
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, white);
+    background: linear-gradient(270deg, transparent, hsl(0, 100%, 31%));
     animation: btn-anim3 2.5s linear infinite;
     animation-delay: .5s
   }
@@ -459,7 +445,7 @@ body > #anybetPage {
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, white);
+    background: linear-gradient(360deg, transparent, hsl(0, 100%, 31%));
     animation: btn-anim4 2.5s linear infinite;
     animation-delay: .75s
   }
@@ -495,6 +481,9 @@ font-size: 50px;
 /*$1,000,000 Spin Text*/
 .waviy {
     position: relative;
+    font-family: orbitron;
+    color: white;
+
   }
   .waviy span {
     position: relative;
@@ -503,7 +492,10 @@ font-size: 50px;
     color: white;
     text-transform: uppercase;
     animation: flip 5s infinite;
-    animation-delay: calc(.2s * var(--i))
+    animation-delay: calc(.2s * var(--i));
+    color: white;
+    font-family: sans-serif;
+    
   }
   @keyframes flip {
     0%,80% {
@@ -568,7 +560,7 @@ font-size: 50px;
     left: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(90deg, transparent, white);
+    background: linear-gradient(90deg, transparent, hsl(0, 100%, 31%));
     animation: btn-anim1 2.5s linear infinite;
   }
   
@@ -586,7 +578,7 @@ font-size: 50px;
     right: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(180deg, transparent, white);
+    background: linear-gradient(180deg, transparent, hsl(0, 100%, 31%));
     animation: btn-anim2 2.5s linear infinite;
     animation-delay: .25s
   }
@@ -605,7 +597,7 @@ font-size: 50px;
     right: -100%;
     width: 100%;
     height: 2px;
-    background: linear-gradient(270deg, transparent, white);
+    background: linear-gradient(270deg, transparent, hsl(0, 100%, 31%));
     animation: btn-anim3 2.5s linear infinite;
     animation-delay: .5s
   }
@@ -624,7 +616,7 @@ font-size: 50px;
     left: 0;
     width: 2px;
     height: 100%;
-    background: linear-gradient(360deg, transparent, white);
+    background: linear-gradient(360deg, transparent, hsl(0, 100%, 31%));
     animation: btn-anim4 2.5s linear infinite;
     animation-delay: .75s
   }
