@@ -212,6 +212,11 @@ function nftSpinTotalMatch() {
     console.log(oldBalance)
     const spin = document.getElementById("spin");
     console.log(spin.value)
+    var tileBet = (spin.value /9) *0.5;
+    console.log(tileBet)
+    const tileBetProb = 9; /*probability or number of tile variables*/
+    const tileBetWin = (tileBet * tileBetProb);
+    console.log(tileBetWin)
 
         var i1 = document.getElementById("gen-img").src;
         var i2 = document.getElementById("gen-img1").src; 
@@ -323,7 +328,7 @@ function nftSpinTotalMatch() {
                 
                 if(nftSpinTotalMatchResult >0) {
                     nftSpinResultA.className = 'randoImage';
-                    document.getElementById("matchNumber").innerText = ("You Won $") + (nftSpinTotalMatchResult);
+                    document.getElementById("matchNumber").innerText = ("You Won $") + (tileBetWin * nftSpinTotalMatchResult);
                     document.getElementById("nftSpinResultA").classList.remove('animate__animated', 'animate__bounceIn');
                     void document.getElementById("nftSpinResultA").offsetWidth;                     
                     document.getElementById("nftSpinResultA").classList.add('animate__animated', 'animate__bounceIn');
