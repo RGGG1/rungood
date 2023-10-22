@@ -318,7 +318,28 @@ function nftSpinTotalMatch() {
 
                 console.log(parseFloat(old1Score) + parseFloat(old2Score) + parseFloat(old3Score) + parseFloat(old4Score) + parseFloat(old5Score) + parseFloat(old6Score) + parseFloat(old7Score) + parseFloat(old8Score) + parseFloat(old9Score));
                 var nftSpinTotalMatchResult = (parseFloat(old1Score) + parseFloat(old2Score) + parseFloat(old3Score) + parseFloat(old4Score) + parseFloat(old5Score) + parseFloat(old6Score) + parseFloat(old7Score) + parseFloat(old8Score) + parseFloat(old9Score));
-                document.getElementById("matchNumber").innerText = nftSpinTotalMatchResult;
+                
+
+                
+                if(nftSpinTotalMatchResult >0) {
+                    nftSpinResultA.className = 'randoImage';
+                    document.getElementById("matchNumber").innerText = ("You Won ") + (nftSpinTotalMatchResult);
+                    document.getElementById("nftSpinResultA").classList.remove('animate__animated', 'animate__bounceIn');
+                    void document.getElementById("nftSpinResultA").offsetWidth;                     
+                    document.getElementById("nftSpinResultA").classList.add('animate__animated', 'animate__bounceIn');
+                    
+                }
+
+                else {
+                    nftSpinResultA.className = 'randoImage';
+                    document.getElementById("matchNumber").innerText = ("Try Again");
+                    document.getElementById("nftSpinResultA").classList.remove('animate__animated', 'animate__bounceIn');
+                    void document.getElementById("nftSpinResultA").offsetWidth;                     
+                    document.getElementById("nftSpinResultA").classList.add('animate__animated', 'animate__bounceIn');
+                    
+                }
+                
+                
 
                 if(nftSpinTotalMatchResult === 0) {
                     document.getElementById("userBalance").innerText = (oldBalance - spin.value);
