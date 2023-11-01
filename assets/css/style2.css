@@ -26,10 +26,10 @@ a:visited {
 
 
 .header {
-    width: 100vw;
-    height: 5vh;
+    width: 96vw;
+    height: 4vh;
     display: inline-block;
-    margin-top: 1vh;
+    padding: 1%;
 }
 
 .leftHeader {
@@ -55,31 +55,31 @@ a:visited {
 
 
 .jackpot {
-    width: 100vw;
-    height: 10vh;
+    width: 96vw;
+    height: 12vh;
     display: inline-block;
-    margin-top: 1vh;
+    padding: 1%;
 }
 
 .game {
-    width: 100vw;
+    width: 96vw;
     height: 60vh;
     display: inline-block;
-    margin-top: 1vh;
+    padding: 1%;
 }
 
 .result {
-    width: 100vw;
+    width: 96vw;
     height: 10vh;
     display: inline-block;
-    margin-top: 1vh;
+    padding: 1%;
 }
 
 .button {
-    width: 100vw;
+    width: 96vw;
     height: 10vh;
     display: inline-block;
-    margin-top: 1vh;
+    padding: 1%;
 }
 
 
