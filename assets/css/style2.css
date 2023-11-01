@@ -1,0 +1,69 @@
+body {
+    font-family: orbitron;
+    text-align: center;
+    margin:auto; 
+    color: hsl(0, 100%, 31%);
+}
+
+/*container*/
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.header {
+    width: 95vw;
+    height: 5vh;
+    display: inline-block;
+    margin-top: 1vh;
+}
+
+.leftHeader {
+    width: 30vw;
+    display: inline-block;
+    text-align: left;
+}
+
+.centerHeader {
+    width: 30vw;
+    display: inline-block;
+    text-align: center;
+}
+
+.rightHeader {
+    width: 30vw;
+    display: inline-block;
+    text-align: right;
+}
+
+
+.jackpot {
+    width: 95vw;
+    height: 10vh;
+    display: inline-block;
+
+}
+
+.game {
+    width: 95vw;
+    height: 60vh;
+    display: inline-block;
+
+}
+
+.result {
+    width: 95vw;
+    height: 10vh;
+    display: inline-block;
+
+}
+
+.button {
+    width: 95vw;
+    height: 10vh;
+    display: inline-block;
+
+}
