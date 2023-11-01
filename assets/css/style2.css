@@ -21,15 +21,14 @@ a:visited {
 .container {
     width: 100vw;
     height: 100vh;
-
 }
 
 
 .header {
     width: 96vw;
-    height: 4vh;
+    height: 5vh;
     display: inline-block;
-    padding: 1%;
+    margin: 1vh;
 }
 
 .leftHeader {
@@ -58,28 +57,28 @@ a:visited {
     width: 96vw;
     height: 12vh;
     display: inline-block;
-    padding: 1%;
+    margin: 1vh;
 }
 
 .game {
     width: 96vw;
-    height: 60vh;
+    height: 50vh;
     display: inline-block;
-    padding: 1%;
+    margin: 1vh;
 }
 
 .result {
     width: 96vw;
-    height: 10vh;
+    height: 5vh;
     display: inline-block;
-    padding: 1%;
+    margin: 1vh;
 }
 
 .button {
     width: 96vw;
     height: 10vh;
     display: inline-block;
-    padding: 1%;
+    margin: 1vh;
 }
 
 
