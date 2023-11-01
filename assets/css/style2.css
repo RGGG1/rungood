@@ -3,7 +3,18 @@ body {
     text-align: center;
     margin:auto; 
     color: hsl(0, 100%, 31%);
+    background-color: black;
 }
+
+/* the :link pseudo class */
+a:link {
+    color: white;
+}
+/* the :visited pseudo class */
+a:visited {
+    color: white;
+}
+
 
 /*container*/
 
@@ -15,7 +26,7 @@ body {
 
 
 .header {
-    width: 95vw;
+    width: 100vw;
     height: 5vh;
     display: inline-block;
     margin-top: 1vh;
@@ -25,6 +36,7 @@ body {
     width: 30vw;
     display: inline-block;
     text-align: left;
+    color:white;
 }
 
 .centerHeader {
@@ -37,33 +49,60 @@ body {
     width: 30vw;
     display: inline-block;
     text-align: right;
+    color:white;
+    font-family: sans-serif;
 }
 
 
 .jackpot {
-    width: 95vw;
+    width: 100vw;
     height: 10vh;
     display: inline-block;
-
+    margin-top: 1vh;
 }
 
 .game {
-    width: 95vw;
+    width: 100vw;
     height: 60vh;
     display: inline-block;
-
+    margin-top: 1vh;
 }
 
 .result {
-    width: 95vw;
+    width: 100vw;
     height: 10vh;
     display: inline-block;
-
+    margin-top: 1vh;
 }
 
 .button {
-    width: 95vw;
+    width: 100vw;
     height: 10vh;
     display: inline-block;
-
+    margin-top: 1vh;
 }
+
+
+/*$1,000,000 Spin Text*/
+.waviy {
+    position: relative;
+    font-family: orbitron;
+    color: white;
+
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    text-transform: uppercase;
+    animation: flip 5s infinite;
+    animation-delay: calc(.2s * var(--i));
+    color: white;
+    font-family: sans-serif;
+    
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
