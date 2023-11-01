@@ -28,7 +28,7 @@ a:visited {
     width: 96vw;
     height: 5vh;
     display: inline-block;
-    margin: 1vh;
+    margin: 2%;
 }
 
 .leftHeader {
@@ -104,4 +104,46 @@ a:visited {
     0%,80% {
       transform: rotateY(360deg) 
     }
+  }
+
+
+  /*NFTwist*/
+  .rubic1 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    display: inline-block;
+
+}
+
+.rubic2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    display: inline-block;
+}
+
+.rubic3 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.rubic4 {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    display: inline-block;
+}
+
+.bet-box .user-box-nftSpin input {
+    width: 24vw;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+    text-align: center;
   }
