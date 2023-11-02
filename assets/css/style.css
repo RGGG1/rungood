@@ -1,37 +1,55 @@
+body {
+    font-family: orbitron;
+    text-align: center;
+    margin:auto; 
+    color: hsl(0, 100%, 31%);
+    background-color: black;
+    position: fixed; 
+    height: 100%;
+}
+
+/*Container*/
+.container {
+    width: 100vw;
+    height: 100svh;
+    position: fixed; 
+    height: 100%;
+}
+
  /* Header */
 
-.header{
-    width: 320px;
+ .header {
+    width: 96vw;
+    height: 5vh;
     display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 20px;
-   }
-   .left {
+    margin: 2%;
+    vertical-align: auto;
+    border-bottom: 1px solid hsl(0, 100%, 31%);
+}
+
+.leftHeader {
+    width: 30vw;
     display: inline-block;
-    width: 80px;
-    font-size: 20px;
     text-align: left;
-    margin: auto;
-   }
+    color:white;
+    font-size: 16px;
+}
 
-   .center {
+.centerHeader {
+    width: 30vw;
     display: inline-block;
-    width: 140px;
-    font-size: 24px;
     text-align: center;
-    margin: auto;
-    font-family: orbitron;
-    color: hsl(0, 100%, 31%);
-   }
+    font-size: 22px;
+}
 
-   .right {
+.rightHeader {
+    width: 30vw;
     display: inline-block;
-    width: 80px;
-    font-size: 20px;
     text-align: right;
-    margin: auto;
+    color:white;
     font-family: sans-serif;
-   }
+    font-size: 16px;
+}
    
 /* NFT Spin */
 img {
@@ -47,14 +65,7 @@ img {
     border-radius: 25%;
 }
 
-body {
-    text-align: center;
-    width: 320px;
-    margin: auto;
-    background-color: black;
-    color: white;
-    font-family: orbitron;
-}
+
 
 .jackpot {
     font-size: 48px;
@@ -285,7 +296,7 @@ body > #anybetPage {
 
 .bet-box {
     position: static;
-    width: 320px;
+    width: 80vw;
     padding: 25px;
     margin: auto;
     background: rgba(0,0,0,.5);
@@ -312,7 +323,6 @@ body > #anybetPage {
   
   .bet-box .user-box input {
     width: 100%;
-    padding: 10px 0;
     font-size: 52px;
     color: #fff;
     margin-bottom: 40px;
@@ -326,7 +336,6 @@ body > #anybetPage {
 
   .bet-box .user-box2 input {
     width: 100%;
-    padding: 10px 0;
     font-size: 50px;
     color: #fff;
     margin-bottom: 10px;
@@ -378,6 +387,18 @@ body > #anybetPage {
                 0 0 50px hsl(0, 100%, 31%),
                 0 0 100px hsl(0, 100%, 31%);
   }
+
+  .bet-box a:active {
+    background: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px white,
+                0 0 25px white,
+                0 0 50px white,
+                0 0 100px white;
+  }
+
+  
   
   .bet-box a span {
     position: absolute;
@@ -510,7 +531,6 @@ font-size: 50px;
     width: auto;
     text-align: center;
     white-space:nowrap;
-    display: inline-block;
   }
 
   #anybetResuwltA {
