@@ -328,7 +328,7 @@ function nftSpinTotalMatch() {
                 
                 if(nftSpinTotalMatchResult >0) {
                     nftSpinResultA.className = 'randoImage';
-                    document.getElementById("matchNumber").innerText = ("You Won $") + (tileBetWin * nftSpinTotalMatchResult);
+                    document.getElementById("matchNumber").innerText = ("You're a Winner $") + (tileBetWin * nftSpinTotalMatchResult);
                     document.getElementById("nftSpinResultA").classList.remove('animate__animated', 'animate__bounceIn');
                     void document.getElementById("nftSpinResultA").offsetWidth;                     
                     document.getElementById("nftSpinResultA").classList.add('animate__animated', 'animate__bounceIn');
@@ -473,7 +473,7 @@ var anybetResultAnimation = document.getElementById("anybetResultA");
 
 if (playerWinChance >= winningNumber) {
     anybetResultAnimation.className = 'randoImage';
-    document.getElementById("anybetResult").innerText = "You Win";
+    document.getElementById("anybetResult").innerText = "You're a Winner";
     document.getElementById("anybetResultA").classList.remove('animate__animated', 'animate__bounceIn');
     void document.getElementById("anybetResultA").offsetWidth;  
     document.getElementById("anybetResultA").classList.add('animate__animated', 'animate__bounceIn');    
@@ -485,7 +485,7 @@ if (playerWinChance >= winningNumber) {
 
     else {
     anybetResultAnimation.className = 'randoImage';
-    document.getElementById("anybetResult").innerText = "Hard Luck";    
+    document.getElementById("anybetResult").innerText = "Try Again";    
     document.getElementById("anybetResultA").classList.remove('animate__animated', 'animate__flash');
     void document.getElementById("anybetResultA").offsetWidth; 
     document.getElementById("anybetResultA").classList.add('animate__animated', 'animate__flash');

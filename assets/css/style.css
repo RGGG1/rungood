@@ -720,3 +720,7 @@ font-size: 50px;
 .superflipHeading {
     font-size: 24;
 }
+
+.superflipGif > img {
+    border-radius: 40%;
+}
