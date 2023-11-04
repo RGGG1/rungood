@@ -245,7 +245,7 @@ function nftSpinTotalMatch() {
                     console.log(old1Score);
                     document.getElementById("gen-img1").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img1").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img1").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)";
+                    document.getElementById("gen-img1").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white";
                 } 
 
                 else {
@@ -261,7 +261,7 @@ function nftSpinTotalMatch() {
                     console.log(old2Score);
                     document.getElementById("gen-img2").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img2").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img2").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"             
+                    document.getElementById("gen-img2").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"             
                   } 
 
                 else {
@@ -277,7 +277,7 @@ function nftSpinTotalMatch() {
                     console.log(old3Score);  
                     document.getElementById("gen-img3").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img3").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img3").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"          
+                    document.getElementById("gen-img3").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"          
                   } 
 
                 else {
@@ -293,7 +293,7 @@ function nftSpinTotalMatch() {
                     console.log(old4Score);
                     document.getElementById("gen-img4").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img4").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img4").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"             
+                    document.getElementById("gen-img4").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"             
                   } 
 
                 else {
@@ -309,7 +309,7 @@ function nftSpinTotalMatch() {
                     console.log(old5Score); 
                     document.getElementById("gen-img5").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img5").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img5").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"            
+                    document.getElementById("gen-img5").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"            
                   } 
 
                 else {
@@ -325,7 +325,7 @@ function nftSpinTotalMatch() {
                     console.log(old6Score); 
                     document.getElementById("gen-img6").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img6").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img6").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"            
+                    document.getElementById("gen-img6").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"            
                   } 
 
                 else {
@@ -341,7 +341,7 @@ function nftSpinTotalMatch() {
                     console.log(old7Score);  
                     document.getElementById("gen-img7").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img7").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img7").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"           
+                    document.getElementById("gen-img7").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"           
                   } 
 
                 else {
@@ -357,7 +357,7 @@ function nftSpinTotalMatch() {
                     console.log(old8Score); 
                     document.getElementById("gen-img8").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img8").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img8").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"            
+                    document.getElementById("gen-img8").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"            
                   } 
 
                 else {
@@ -373,7 +373,7 @@ function nftSpinTotalMatch() {
                     console.log(old9Score); 
                     document.getElementById("gen-img9").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img9").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img9").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"            
+                    document.getElementById("gen-img9").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"            
                   } 
 
                 else {
