@@ -332,7 +332,7 @@ function nftSpinTotalMatch() {
                     document.getElementById("nftSpinResultA").classList.remove('animate__animated', 'animate__bounceIn');
                     void document.getElementById("nftSpinResultA").offsetWidth;                     
                     document.getElementById("nftSpinResultA").classList.add('animate__animated', 'animate__bounceIn');
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(tileBet)*nftSpinTotalMatchResult*8));
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(tileBet)*nftSpinTotalMatchResult*8)).toFixed(2);
                 }
 
                 else {
