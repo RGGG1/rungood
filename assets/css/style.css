@@ -69,9 +69,20 @@ img {
 .draw {
     height: 50px;
     width: 50px;
-    margin: 20px 20px 20px 20px;
+    margin: 15px 15px 15px 15px;
     border-radius: 25%;
+    border: 4px solid black;
+    animation: "";    
 }
+
+@keyframes blink2 { 
+    50% { border-color: black;
+        box-shadow: 0 0 5px black,
+                0 0 25px black,
+                0 0 50px black,
+                0 0 100px black;
+        
+         } }
 
 .slots
 {

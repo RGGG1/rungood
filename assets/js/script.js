@@ -242,83 +242,146 @@ function nftSpinTotalMatch() {
                     
                 if (i1 === i2) {
                     old1Score = ++old1Score;
-                    console.log(old1Score);                                
-                  } 
+                    console.log(old1Score);
+                    document.getElementById("gen-img1").style.borderColor = "4px hsl(0, 100%, 31%)";
+                    document.getElementById("gen-img1").style.animation = "blink2 .5s step-end infinite alternate";
+                    document.getElementById("gen-img1").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)";
+                } 
 
                 else {
                     console.log(old1Score); 
+                    document.getElementById("gen-img1").style.borderColor = "black";
+                    document.getElementById("gen-img1").style.boxShadow = "black";
+                    document.getElementById("gen-img1").style.animation = "";
+                    document.getElementById("gen-img1").style.boxShadow = "0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black";
                 } 
             
                 if (i1 === i3) {
                     old2Score = ++old2Score;
-                    console.log(old2Score);             
+                    console.log(old2Score);
+                    document.getElementById("gen-img2").style.borderColor = "4px hsl(0, 100%, 31%)";
+                    document.getElementById("gen-img2").style.animation = "blink2 .5s step-end infinite alternate";
+                    document.getElementById("gen-img2").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"             
                   } 
 
                 else {
                     console.log(old2Score);
+                    document.getElementById("gen-img2").style.borderColor = "black";
+                    document.getElementById("gen-img2").style.boxShadow = "black";
+                    document.getElementById("gen-img2").style.animation = "";
+                    document.getElementById("gen-img2").style.boxShadow = "0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black";
                 } 
 
                 if (i1 === i4) {
                     old3Score = ++old3Score;
-                    console.log(old3Score);             
+                    console.log(old3Score);  
+                    document.getElementById("gen-img3").style.borderColor = "4px hsl(0, 100%, 31%)";
+                    document.getElementById("gen-img3").style.animation = "blink2 .5s step-end infinite alternate";
+                    document.getElementById("gen-img3").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"          
                   } 
 
                 else {
                     console.log(old3Score);
+                    document.getElementById("gen-img3").style.borderColor = "black";
+                    document.getElementById("gen-img3").style.boxShadow = "black";
+                    document.getElementById("gen-img3").style.animation = "";
+                    document.getElementById("gen-img3").style.boxShadow = "0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black";
                 } 
 
                 if (i1 === i5) {
                     old4Score = ++old4Score;
-                    console.log(old4Score);             
+                    console.log(old4Score);
+                    document.getElementById("gen-img4").style.borderColor = "4px hsl(0, 100%, 31%)";
+                    document.getElementById("gen-img4").style.animation = "blink2 .5s step-end infinite alternate";
+                    document.getElementById("gen-img4").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"             
                   } 
 
                 else {
                     console.log(old4Score);
+                    document.getElementById("gen-img4").style.borderColor = "black";
+                    document.getElementById("gen-img4").style.boxShadow = "black";
+                    document.getElementById("gen-img4").style.animation = "";
+                    document.getElementById("gen-img4").style.boxShadow = "0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black";
                 } 
 
                 if (i1 === i6) {
                     old5Score = ++old5Score;
-                    console.log(old5Score);             
+                    console.log(old5Score); 
+                    document.getElementById("gen-img5").style.borderColor = "4px hsl(0, 100%, 31%)";
+                    document.getElementById("gen-img5").style.animation = "blink2 .5s step-end infinite alternate";
+                    document.getElementById("gen-img5").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"            
                   } 
 
                 else {
                     console.log(old5Score);
+                    document.getElementById("gen-img5").style.borderColor = "black";
+                    document.getElementById("gen-img5").style.boxShadow = "black";
+                    document.getElementById("gen-img5").style.animation = "";
+                    document.getElementById("gen-img5").style.boxShadow = "0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black";
                 } 
 
                 if (i1 === i7) {
                     old6Score = ++old6Score;
-                    console.log(old6Score);             
+                    console.log(old6Score); 
+                    document.getElementById("gen-img6").style.borderColor = "4px hsl(0, 100%, 31%)";
+                    document.getElementById("gen-img6").style.animation = "blink2 .5s step-end infinite alternate";
+                    document.getElementById("gen-img6").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"            
                   } 
 
                 else {
                     console.log(old6Score);
+                    document.getElementById("gen-img6").style.borderColor = "black";
+                    document.getElementById("gen-img6").style.boxShadow = "black";
+                    document.getElementById("gen-img6").style.animation = "";
+                    document.getElementById("gen-img6").style.boxShadow = "0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black";
                 } 
 
                 if (i1 === i8) {
                     old7Score = ++old7Score;
-                    console.log(old7Score);             
+                    console.log(old7Score);  
+                    document.getElementById("gen-img7").style.borderColor = "4px hsl(0, 100%, 31%)";
+                    document.getElementById("gen-img7").style.animation = "blink2 .5s step-end infinite alternate";
+                    document.getElementById("gen-img7").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"           
                   } 
 
                 else {
                     console.log(old7Score);
+                    document.getElementById("gen-img7").style.borderColor = "black";
+                    document.getElementById("gen-img7").style.boxShadow = "black";
+                    document.getElementById("gen-img7").style.animation = "";
+                    document.getElementById("gen-img7").style.boxShadow = "0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black";
                 } 
 
                 if (i1 === i9) {
                     old8Score = ++old8Score;
-                    console.log(old8Score);             
+                    console.log(old8Score); 
+                    document.getElementById("gen-img8").style.borderColor = "4px hsl(0, 100%, 31%)";
+                    document.getElementById("gen-img8").style.animation = "blink2 .5s step-end infinite alternate";
+                    document.getElementById("gen-img8").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"            
                   } 
 
                 else {
                     console.log(old8Score);
+                    document.getElementById("gen-img8").style.borderColor = "black";
+                    document.getElementById("gen-img8").style.boxShadow = "black";
+                    document.getElementById("gen-img8").style.animation = "";
+                    document.getElementById("gen-img8").style.boxShadow = "0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black";
                 } 
 
                 if (i1 === i10) {
                     old9Score = ++old9Score;
-                    console.log(old9Score);             
+                    console.log(old9Score); 
+                    document.getElementById("gen-img9").style.borderColor = "4px hsl(0, 100%, 31%)";
+                    document.getElementById("gen-img9").style.animation = "blink2 .5s step-end infinite alternate";
+                    document.getElementById("gen-img9").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"            
                   } 
 
                 else {
                     console.log(old9Score);
+                    document.getElementById("gen-img9").style.borderColor = "black";
+                    document.getElementById("gen-img9").style.boxShadow = "black";
+                    document.getElementById("gen-img9").style.animation = "";
+                    document.getElementById("gen-img9").style.boxShadow = "0 0 5px black, 0 0 25px black, 0 0 50px black, 0 0 100px black";
                 } 
 
                 console.log(parseFloat(old1Score) + parseFloat(old2Score) + parseFloat(old3Score) + parseFloat(old4Score) + parseFloat(old5Score) + parseFloat(old6Score) + parseFloat(old7Score) + parseFloat(old8Score) + parseFloat(old9Score));
@@ -342,7 +405,6 @@ function nftSpinTotalMatch() {
                     void document.getElementById("nftSpinResultA").offsetWidth;                     
                     document.getElementById("nftSpinResultA").classList.add('animate__animated', 'animate__flash');
                     document.getElementById("userBalance").innerText = (oldBalance - spin.value);
-                    
                 }
             }
 
