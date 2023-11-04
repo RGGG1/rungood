@@ -368,7 +368,7 @@ function nftSpinTotalMatch() {
                     document.getElementById("nftSpinResultA").classList.remove('animate__animated', 'animate__bounceIn');
                     void document.getElementById("nftSpinResultA").offsetWidth;                     
                     document.getElementById("nftSpinResultA").classList.add('animate__animated', 'animate__bounceIn');
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(tileBet)*nftSpinTotalMatchResult*8)).toFixed(2);
+                    
                 }
 
                 else {
@@ -377,8 +377,49 @@ function nftSpinTotalMatch() {
                     document.getElementById("nftSpinResultA").classList.remove('animate__animated', 'animate__flash');
                     void document.getElementById("nftSpinResultA").offsetWidth;                     
                     document.getElementById("nftSpinResultA").classList.add('animate__animated', 'animate__flash');
+                    
+                }
+
+                if (nftSpinTotalMatchResult === 0) {
                     document.getElementById("userBalance").innerText = (oldBalance - spin.value);
                 }
+
+                if (nftSpinTotalMatchResult === 1) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*0.5)).toFixed(2);
+                }
+
+                if (nftSpinTotalMatchResult === 2) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*10)).toFixed(2);
+                }
+
+                if (nftSpinTotalMatchResult === 3) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*50)).toFixed(2);
+                }
+
+                if (nftSpinTotalMatchResult === 4) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*250)).toFixed(2);
+                }
+
+                if (nftSpinTotalMatchResult === 5) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*1250)).toFixed(2);
+                }
+
+                if (nftSpinTotalMatchResult === 6) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*5000)).toFixed(2);
+                }
+
+                if (nftSpinTotalMatchResult === 7) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*25000)).toFixed(2);
+                }
+
+                if (nftSpinTotalMatchResult === 8) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*125000)).toFixed(2);
+                }
+
+                if (nftSpinTotalMatchResult === 9) {
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + 1000000);
+                }
+
             }
 
 /* Anybet */
