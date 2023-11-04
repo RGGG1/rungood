@@ -1,7 +1,7 @@
 
 window.onload = choosePic; imgchangedraw1(); imgchangedraw2(); imgchangedraw3(); imgchangedraw4(); imgchangedraw5(); imgchangedraw6(); imgchangedraw7(); imgchangedraw8(); imgchangedraw9();
 
-var myPix = new Array("assets/cp1.png","assets/az1.png","assets/bayc1.png","assets/broh1.png","assets/cdb1.png","assets/meeg1.png");
+var myPix = new Array("assets/cp1.png","assets/az1.png","assets/az1.png","assets/broh1.png","assets/cp1.png","assets/cdb1.png","assets/meeg1.png");
 
 function choosePic() {
      var randomNum = Math.floor(Math.random() * myPix.length);
@@ -13,7 +13,7 @@ function imgchangedraw1() {
     var myImages1 = new Array();
     myImages1[1] = "assets/cp1.png";
     myImages1[2] = "assets/az1.png";
-    myImages1[3] = "assets/bayc1.png";
+    myImages1[3] = "assets/az1.png";
     myImages1[4] = "assets/broh1.png";
     myImages1[5] = "assets/cdb1.png";
     myImages1[6] = "assets/meeg1.png";
