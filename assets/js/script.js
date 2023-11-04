@@ -1,5 +1,5 @@
 
-window.onload = choosePic; imgchangedraw1(); imgchangedraw2(); imgchangedraw3(); imgchangedraw4(); imgchangedraw5(); imgchangedraw6(); imgchangedraw7(); imgchangedraw8(); imgchangedraw9();;
+window.onload = choosePic; imgchangedraw1(); imgchangedraw2(); imgchangedraw3(); imgchangedraw4(); imgchangedraw5(); imgchangedraw6(); imgchangedraw7(); imgchangedraw8(); imgchangedraw9();
 
 var myPix = new Array("assets/az1.png","assets/bayc1.png","assets/broh1.png", "assets/cdb1.png","assets/cp1.png","assets/meeg1.png", "assets/pp1.png","assets/d8.png","assets/d9.png");
 
@@ -328,11 +328,11 @@ function nftSpinTotalMatch() {
                 
                 if(nftSpinTotalMatchResult >0) {
                     nftSpinResultA.className = 'randoImage';
-                    document.getElementById("matchNumber").innerText = ("You're a Winner $") + (tileBetWin * nftSpinTotalMatchResult);
+                    document.getElementById("matchNumber").innerText = ("You're a Winner $") + (parseFloat(tileBet)*nftSpinTotalMatchResult*9).toFixed(2);
                     document.getElementById("nftSpinResultA").classList.remove('animate__animated', 'animate__bounceIn');
                     void document.getElementById("nftSpinResultA").offsetWidth;                     
                     document.getElementById("nftSpinResultA").classList.add('animate__animated', 'animate__bounceIn');
-                    
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(tileBet)*nftSpinTotalMatchResult*8));
                 }
 
                 else {
@@ -341,62 +341,8 @@ function nftSpinTotalMatch() {
                     document.getElementById("nftSpinResultA").classList.remove('animate__animated', 'animate__flash');
                     void document.getElementById("nftSpinResultA").offsetWidth;                     
                     document.getElementById("nftSpinResultA").classList.add('animate__animated', 'animate__flash');
-                    
-                }
-                
-                
-
-                if(nftSpinTotalMatchResult === 0) {
                     document.getElementById("userBalance").innerText = (oldBalance - spin.value);
-                    document.getElementById("spinRes").classList.remove('animate__animated', 'animate__bounceIn');
-                    document.getElementById("spinRes").classList.add('animate__animated', 'animate__bounceIn');
-
-                }
-
-                if(nftSpinTotalMatchResult === 1) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
-                    document.getElementById("spinRes").classList.add('animate__animated', 'animate__bounceIn');
-                    document.getElementById("spinRes").classList.remove('animate__animated', 'animate__bounceIn');
-                }
-
-                if(nftSpinTotalMatchResult === 2) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
-                    document.getElementById("matchNumber").classList.add('animate__animated', 'animate__bounceIn');
-                }
-
-                if(nftSpinTotalMatchResult === 3) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
-                    document.getElementById("spinRes").classList.remove('animate__animated', 'animate__bounceIn');
-                }
-
-                if(nftSpinTotalMatchResult === 4) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
-                    document.getElementById("spinRes").classList.remove('animate__animated', 'animate__bounceIn');
-                }
-
-                if(nftSpinTotalMatchResult === 5) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
-                    document.getElementById("spinRes").classList.remove('animate__animated', 'animate__bounceIn');
-                }
-
-                if(nftSpinTotalMatchResult === 6) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
-                    document.getElementById("spinRes").classList.remove('animate__animated', 'animate__bounceIn');
-                }
-
-                if(nftSpinTotalMatchResult === 7) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
-                    document.getElementById("spinRes").classList.remove('animate__animated', 'animate__bounceIn');
-                }
-
-                if(nftSpinTotalMatchResult === 8) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
-                    document.getElementById("spinRes").classList.remove('animate__animated', 'animate__bounceIn');
-                }
-
-                if(nftSpinTotalMatchResult === 9) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)));
-                    document.getElementById("spinRes").classList.remove('animate__animated', 'animate__bounceIn');
+                    
                 }
             }
 
