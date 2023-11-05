@@ -385,7 +385,7 @@ function nftSpinTotalMatch() {
                 }
 
                 if (nftSpinTotalMatchResult === 1) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*1.5)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*0.5)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 2) {
