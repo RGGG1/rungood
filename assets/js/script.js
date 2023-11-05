@@ -385,35 +385,35 @@ function nftSpinTotalMatch() {
                 }
 
                 if (nftSpinTotalMatchResult === 1) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*0.5)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (oldBalance - ((spin.value)*0.5));
                 }
 
                 if (nftSpinTotalMatchResult === 2) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*1)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (oldBalance - ((spin.value)*0.75));
                 }
 
                 if (nftSpinTotalMatchResult === 3) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*3.5)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*1.5)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 4) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*15)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*5)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 5) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*75)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*25)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 6) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*500)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*200)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 7) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*7777)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*2500)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 8) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*125000)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*25000)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 9) {

@@ -58,6 +58,7 @@ body {
     margin: 1vh;
     margin-bottom: 2vh;
 }
+
    
 /* NFT Spin */
 img {
@@ -86,6 +87,11 @@ img {
 
 .slots
 {
+    width: 80%;
+    margin: auto;
+}
+
+.payouts {
     width: 80%;
     margin: auto;
 }
