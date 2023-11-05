@@ -385,7 +385,7 @@ function nftSpinTotalMatch() {
                 }
 
                 if (nftSpinTotalMatchResult === 1) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*0.5)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*1.5)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 2) {
@@ -393,7 +393,7 @@ function nftSpinTotalMatch() {
                 }
 
                 if (nftSpinTotalMatchResult === 3) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*4)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*3.5)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 4) {
@@ -405,7 +405,7 @@ function nftSpinTotalMatch() {
                 }
 
                 if (nftSpinTotalMatchResult === 6) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*666)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*500)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 7) {
