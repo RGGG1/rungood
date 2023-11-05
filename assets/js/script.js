@@ -389,27 +389,27 @@ function nftSpinTotalMatch() {
                 }
 
                 if (nftSpinTotalMatchResult === 2) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*10)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*1)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 3) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*50)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*4)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 4) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*250)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*15)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 5) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*1250)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*75)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 6) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*5000)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*666)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 7) {
-                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*25000)).toFixed(2);
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*7777)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 8) {
