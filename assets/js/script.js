@@ -558,10 +558,11 @@ if (playerWinChance >= winningNumber) {
 
 function flipWin() {
 
-let oldBalance = (parseFloat(document.getElementById("userBalance").innerText)).toFixed(2);
-    console.log(oldBalance)
-    const flip = document.getElementById("flip");
-    console.log(spin.value)
+let oldFlipBalance = (parseFloat(document.getElementById("userBalance").innerText)).toFixed(2);
+    console.log(oldFlipBalance)
+
+const flip = document.getElementById("flip");
+    console.log(flip.value)
 
 const minFlip = 1;
 const maxFlip = 100;
@@ -570,26 +571,30 @@ console.log(winningFlipNumber);
 
 if (winningFlipNumber <= 57) {
     /* lose */
+    document.getElementById("userBalance").innerText = (parseFloat(oldFlipBalance) - (parseFloat(flip.value))).toFixed(2);
 }
 
 if (winningFlipNumber >= 58 && winningFlipNumber < 72) {
 /* win 1x flip  */
+document.getElementById("userBalance").innerText = (parseFloat(oldFlipBalance) + (parseFloat(flip.value))).toFixed(2);
 }
 
 if (winningFlipNumber >= 72 && winningFlipNumber < 86) {
     /* win 1.5x flip  */
+    document.getElementById("userBalance").innerText = (parseFloat(oldFlipBalance) + (parseFloat(flip.value)*1.5)).toFixed(2);
 }
 
 if (winningFlipNumber >= 86 && winningFlipNumber < 96) {
         /* win 2x flip  */
+    document.getElementById("userBalance").innerText = (parseFloat(oldFlipBalance) + (parseFloat(flip.value)*2)).toFixed(2);
 }
 
 if (winningFlipNumber >= 96 && winningFlipNumber < 99) {
-                /* win 5x flip  */
+    document.getElementById("userBalance").innerText = (parseFloat(oldFlipBalance) + (parseFloat(flip.value)*5)).toFixed(2);
 }
 
 if (winningFlipNumber >= 99) {
-    /* win 10x flip  */
+    document.getElementById("userBalance").innerText = (parseFloat(oldFlipBalance) + (parseFloat(flip.value)*10)).toFixed(2);
 } 
 
 }
