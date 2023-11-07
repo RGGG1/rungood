@@ -551,3 +551,45 @@ if (playerWinChance >= winningNumber) {
 }
 
 }
+
+/*SuperFlip*/
+
+/*10% house*/
+
+function flipWin() {
+
+let oldBalance = (parseFloat(document.getElementById("userBalance").innerText)).toFixed(2);
+    console.log(oldBalance)
+    const flip = document.getElementById("flip");
+    console.log(spin.value)
+
+const minFlip = 1;
+const maxFlip = 100;
+winningFlipNumber = Math.round(Math.random() * (maxFlip - minFlip) + (minFlip));
+console.log(winningFlipNumber);
+
+if (winningFlipNumber <= 57) {
+    /* lose */
+}
+
+if (winningFlipNumber >= 58 && winningFlipNumber < 72) {
+/* win 1x flip  */
+}
+
+if (winningFlipNumber >= 72 && winningFlipNumber < 86) {
+    /* win 1.5x flip  */
+}
+
+if (winningFlipNumber >= 86 && winningFlipNumber < 96) {
+        /* win 2x flip  */
+}
+
+if (winningFlipNumber >= 96 && winningFlipNumber < 99) {
+                /* win 5x flip  */
+}
+
+if (winningFlipNumber >= 99) {
+    /* win 10x flip  */
+} 
+
+}
