@@ -572,29 +572,53 @@ console.log(winningFlipNumber);
 if (winningFlipNumber <= 57) {
     /* lose */
     document.getElementById("userBalance").innerText = (parseFloat(oldFlipBalance) - (parseFloat(flip.value))).toFixed(2);
+    document.getElementById("flipResult").innerText = "Try Again";    
+    document.getElementById("flipResultA").classList.remove('animate__animated', 'animate__flash');
+    void document.getElementById("flipResultA").offsetWidth; 
+    document.getElementById("flipResultA").classList.add('animate__animated', 'animate__flash');
 }
 
 if (winningFlipNumber >= 58 && winningFlipNumber < 72) {
 /* win 1x flip  */
-document.getElementById("userBalance").innerText = (parseFloat(oldFlipBalance) + (parseFloat(flip.value))).toFixed(2);
+    document.getElementById("userBalance").innerText = (parseFloat(oldFlipBalance) + (parseFloat(flip.value))).toFixed(2);
+    document.getElementById("flipResult").innerText = ("You're a Winner $") + (parseFloat(flip.value)).toFixed(2);   
+    document.getElementById("flipResultA").classList.remove('animate__animated', 'animate__flash');
+    void document.getElementById("flipResultA").offsetWidth; 
+    document.getElementById("flipResultA").classList.add('animate__animated', 'animate__flash');
 }
 
 if (winningFlipNumber >= 72 && winningFlipNumber < 86) {
     /* win 1.5x flip  */
     document.getElementById("userBalance").innerText = (parseFloat(oldFlipBalance) + (parseFloat(flip.value)*1.5)).toFixed(2);
+    document.getElementById("flipResult").innerText = ("You're a Winner $") + (parseFloat(flip.value)*1.5).toFixed(2);   
+    document.getElementById("flipResultA").classList.remove('animate__animated', 'animate__flash');
+    void document.getElementById("flipResultA").offsetWidth; 
+    document.getElementById("flipResultA").classList.add('animate__animated', 'animate__flash');
 }
 
 if (winningFlipNumber >= 86 && winningFlipNumber < 96) {
         /* win 2x flip  */
     document.getElementById("userBalance").innerText = (parseFloat(oldFlipBalance) + (parseFloat(flip.value)*2)).toFixed(2);
+    document.getElementById("flipResult").innerText = ("You're a Winner $") + (parseFloat(flip.value)*2).toFixed(2);   
+    document.getElementById("flipResultA").classList.remove('animate__animated', 'animate__flash');
+    void document.getElementById("flipResultA").offsetWidth; 
+    document.getElementById("flipResultA").classList.add('animate__animated', 'animate__flash');
 }
 
 if (winningFlipNumber >= 96 && winningFlipNumber < 99) {
     document.getElementById("userBalance").innerText = (parseFloat(oldFlipBalance) + (parseFloat(flip.value)*5)).toFixed(2);
+    document.getElementById("flipResult").innerText = ("You're a Winner $") + (parseFloat(flip.value)*5).toFixed(2);   
+    document.getElementById("flipResultA").classList.remove('animate__animated', 'animate__flash');
+    void document.getElementById("flipResultA").offsetWidth; 
+    document.getElementById("flipResultA").classList.add('animate__animated', 'animate__flash');
 }
 
 if (winningFlipNumber >= 99) {
     document.getElementById("userBalance").innerText = (parseFloat(oldFlipBalance) + (parseFloat(flip.value)*10)).toFixed(2);
+    document.getElementById("flipResult").innerText = ("BIG WINNER $") + (parseFloat(flip.value)*10).toFixed(2);   
+    document.getElementById("flipResultA").classList.remove('animate__animated', 'animate__flash');
+    void document.getElementById("flipResultA").offsetWidth; 
+    document.getElementById("flipResultA").classList.add('animate__animated', 'animate__flash');
 } 
 
 }
