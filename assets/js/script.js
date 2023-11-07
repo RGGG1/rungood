@@ -391,11 +391,11 @@ function nftSpinTotalMatch() {
                 }
 
                 if (nftSpinTotalMatchResult === 2) {
-                    document.getElementById("userBalance").innerText = (oldBalance - ((spin.value)*0.25));
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*0.25)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 3) {
-                    document.getElementById("userBalance").innerText = (oldBalance - ((spin.value)*1));
+                    document.getElementById("userBalance").innerText = (parseFloat(oldBalance) + (parseFloat(spin.value)*1)).toFixed(2);
                 }
 
                 if (nftSpinTotalMatchResult === 4) {
