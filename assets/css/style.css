@@ -33,8 +33,12 @@ body {
     text-align: left;
     font-size: 20px;
     display: inline-block;
-    color: hsl(0, 100%, 31%);
 }
+
+a > .leftHeader {
+    color: hsl(0, 100%, 31%);  
+}
+
 
 
 .rightHeader {
@@ -43,7 +47,7 @@ body {
     color:white;
     font-family: sans-serif;
     font-size: 16px;
-    display: inline-block;
+    display: inline-block;    
 }
 
 .adBannerHome {
@@ -167,13 +171,14 @@ a {
 
 a > .gameBox1 {
     height: auto;
-    width: auto;
+    width: 100%;
     display: inline-block;
+    margin-bottom: 4vh;
 }
 
 a > .gameBox1 >img {
     height: 25vh;
-    width: auto;
+    width: 100%;
     margin: auto;
     border-radius: 25%;
     display: block;
@@ -181,21 +186,22 @@ a > .gameBox1 >img {
 
 a > .gameBox2 {
     height: 25vh;
-    width: 140px;
+    width: auto;
     margin: auto;
     display: inline-block;
+    margin-right: 4vw;
 }
 
 a > .gameBox2 >img {
     height: 25vh;
-    width: 130px;
+    width: auto;
     margin: auto;
     border-radius: 5%;
     display: block;
 }
 
 .gameBox2Small {
-    height: 250px;
+    height: 25vh;
     width: 140px;
     margin: auto;
     display: inline-block;
@@ -203,11 +209,10 @@ a > .gameBox2 >img {
 
 .gameBox3Block {
     height: auto;
-    width: auto;
+    width: 100%;
     display: inline-block;
+    margin-bottom: 4vh;
 }
-
-
 
 a > .gameBox3 {
     height: 80px;
@@ -258,16 +263,17 @@ a > .gameBox4 >img {
 }
 
 a > .gameBox {
-    height: 140px;
-    width: 140px;
+    height: 12.5vh;
+    width: 100%;
     display: inline-block;
     margin: auto;
     text-align: center;
+    margin-bottom: 2vh;
 }
 
 a > .gameBox >img {
-    height: 100px;
-    width: 100px;
+    height: 10.5vh;
+    width: 100%;
     margin: auto;
     border-radius: 5%;
     display: block;
@@ -309,7 +315,7 @@ a:link {
 }
 /* next the :visited pseudo class */
 a:visited {
-    color: hsl(0, 100%, 31%);
+    color: white;
 }
 
 
