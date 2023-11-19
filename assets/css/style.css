@@ -144,6 +144,8 @@ body > .gameBox >img {
     display: block;
 }
 
+
+
 body > .promoBox {
     height: 75px;
     width: 100%;
@@ -270,6 +272,22 @@ a > .gameBox >img {
     width: 100px;
     margin: auto;
     border-radius: 5%;
+    display: block;
+}
+
+a > .gameBoxSmall {
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    font-size: 12px;
+}
+
+a > .gameBoxSmall > img {
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    border-radius: 25%;
     display: block;
 }
 
