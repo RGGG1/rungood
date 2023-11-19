@@ -181,14 +181,14 @@ a > .gameBox1 >img {
 }
 
 a > .gameBox2 {
-    height: 250px;
+    height: 25vh;
     width: 140px;
     margin: auto;
     display: inline-block;
 }
 
 a > .gameBox2 >img {
-    height: 240px;
+    height: 25vh;
     width: 130px;
     margin: auto;
     border-radius: 5%;
@@ -204,8 +204,7 @@ a > .gameBox2 >img {
 
 .gameBox3Block {
     height: auto;
-    width: 320px;
-    margin: 50px 0px 25px 0px;
+    width: auto;
     display: inline-block;
 }
 
@@ -287,7 +286,7 @@ a > .gameBoxSmall > img {
     height: 50px;
     width: 50px;
     margin: auto;
-    border-radius: 25%;
+    border-radius: 5%;
     display: block;
 }
 
