@@ -11,42 +11,42 @@ body {
 /* Header */
 
  .header {
-    width: 100%;
+    width: 98vw;
     height: auto;
     display: inline-block;
     margin-top: 2%;
     margin-bottom: 1%;
     vertical-align: auto;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px -2px white;
 }
 
 .leftHeader {
-    width: 20%;
-    display: inline-block;
+    width: 45vw;
     text-align: left;
     color:white;
-    font-size: 16px;
+    font-size: 20px;
+    display: inline-block;
+    color: hsl(0, 100%, 31%);
 }
 
-.centerHeader {
-    width: 50%;
-    display: inline-block;
-    text-align: center;
-    font-size: 20px;
-}
 
 .rightHeader {
-    width: 20%;
-    display: inline-block;
+    width: 45vw;
     text-align: right;
     color:white;
     font-family: sans-serif;
     font-size: 16px;
+    display: inline-block;
 }
 
 .adBannerHome {
 width: 90vw;
 height: auto;
-margin: auto;
+margin-top: 1vh;
+margin-bottom: 4vh;
+margin-left: auto;
+margin-right: auto;
 border: 0.25vh solid hsl(0, 100%, 31%);
 }
 
@@ -158,15 +158,14 @@ a {
 }
 
 a > .gameBox1 {
-    height: 200px;
-    width: 300px;
+    height: auto;
+    width: auto;
     display: inline-block;
-    margin: 10px 10px 10px 10px;
 }
 
 a > .gameBox1 >img {
-    height: 240px;
-    width: 280px;
+    height: 25vh;
+    width: auto;
     margin: auto;
     border-radius: 25%;
     display: block;
