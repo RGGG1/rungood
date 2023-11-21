@@ -207,11 +207,11 @@ a > .gameBox2 >img {
 }
 
 .gameBox2Small {
-    height: 25vh;
+    height: auto;
     width: auto;
     margin: auto;
     display: inline-block;
-    margin-top: 4vh;
+    margin-top: 2vh;
     margin-bottom: 2vh;
     margin-left: 2vw;
     margin-right: 2vw;
@@ -276,8 +276,8 @@ a > .gameBox4 >img {
 }
 
 a > .gameBox {
-    height: 12.5vh;
-    width: 50%;
+    height: auto;
+    width: auto;
     margin: auto;
     display: inline-block;
     margin-top: 2vh;
@@ -636,10 +636,7 @@ font-size: 50px;
     height: auto;
     text-align: center;
     display: inline-block;
-    margin-top: 4vh;
-    margin-bottom: 2vh;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin: auto;
 
   }
 
@@ -652,10 +649,7 @@ font-size: 50px;
     overflow: hidden;
     transition: .5s; 
     text-align: center;
-    margin-top: 4vh;
-    margin-bottom: 2vh;
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin:auto;
     padding: 10px 10px 10px 10px;
 }
   
