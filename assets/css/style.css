@@ -11,36 +11,30 @@ body {
 /*new layout*/
 
 .g1 {
-    width: 45%;
+    width: 90vw;
     height: 25vh;
     border:  solid 2px black; 
     display: inline-block;
     margin: auto; 
+    margin-bottom: 25px;
     padding: 0;
 }
 
 .g2 {
-    width: 88%;
+    width: 40vw;
     height: 10vh;
     border:  solid 2px black; 
     display: inline-block;  
-    margin: 20px; 
-    padding: 0;
-}
-
-.g3 {
-    width: 45%;
-    height: 25vh; 
-    display: inline-block;
-    margin: auto; 
+    margin: 1vw 1vh 1vw 1vh;     
     padding: 0;
 }
 
 .g4 {
-    width: 44%;
+    width: 20vw;
     height: 10vh;
     border:  solid 2px black; 
     display: inline-block;  
+    margin: auto;     
     padding: 0;
 }
 
