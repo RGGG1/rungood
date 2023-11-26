@@ -45,17 +45,27 @@ body {
     height: 100%;
     width: 100%;
     max-width: 450px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 0px white;
   }
 
 .g2 img {
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 0px white;
   }
 
 .g4 img {
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 0px white;
   }
+
+.comingSoon {
+    color: white;
+}
 
 /* Header */
 
@@ -199,10 +209,11 @@ body > .gameBox >img {
 
 
 body > .promoBox {
-    height: 75px;
-    width: 100%;
-    margin-top: 20px;
+    height: auto;
+    width: 95vw;
+    margin: auto;
     margin-bottom: 20px;
+    max-width: 450px;
 
 }
 
@@ -687,6 +698,8 @@ font-size: 50px;
     text-align: center;
     display: inline-block;
     margin: auto;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 0px -2px white;
 
   }
 
