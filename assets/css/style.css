@@ -13,25 +13,25 @@ body {
 .g1 {
     width: 40vw;
     height: 15vh;
-    border:  solid 2px hsl(0, 100%, 31%); 
     display: inline-block; 
     margin: 5vh 2vw 5vh 2vw; 
     padding: 0;
     max-width: 250px;
     max-height: 200px;
     border-radius: 2.5%;
+    min-width: 150px;
 }
 
 .g2 {
     width: 40vw;
     height: 15vh;
-    border:  solid 2px hsl(0, 100%, 31%);  
     display: inline-block;  
     margin: 5vh 2vw 5vh 2vw;      
     padding: 0;
     max-width: 250px;
     max-height: 200px;
     border-radius: 2.5%;
+    min-width: 150px;
 }
 
 
@@ -415,7 +415,7 @@ a:visited {
     animation: fadeIn 5s linear alternate infinite;
     color: black;
     text-align: center;
-    font-size-adjust: 0.5;
+    font-size-adjust: auto;
   }
   
   @keyframes fadeIn {
