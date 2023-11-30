@@ -66,6 +66,8 @@ body {
 .comingSoon {
     color: white;
     font-size: 24px;
+    border-top: 0.25vh solid white;
+    padding-top: 5vh;
 }
 
 /* Header */
