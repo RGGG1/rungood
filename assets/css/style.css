@@ -11,26 +11,29 @@ body {
 /*new layout*/
 
 .g1 {
-    width: 90vw;
-    height: 25vh;
-    border:  solid 2px black; 
-    display: inline-block;
-    margin: auto; 
-    margin-bottom: 25px;
+    width: 40vw;
+    height: 15vh;
+    border:  solid 2px white; 
+    display: inline-block; 
+    margin: 5vh 2vw 5vh 2vw; 
     padding: 0;
-    max-width: 400px;
+    max-width: 250px;
     max-height: 200px;
+    border-radius: 2.5%;
 }
 
 .g2 {
     width: 40vw;
-    height: 10vh;
-    border:  solid 2px black; 
+    height: 15vh;
+    border:  solid 2px white;  
     display: inline-block;  
-    margin: 1vw 1vh 1vw 1vh;     
+    margin: 5vh 2vw 5vh 2vw;      
     padding: 0;
     max-width: 250px;
+    max-height: 200px;
+    border-radius: 2.5%;
 }
+
 
 .g4 {
     width: 20vw;
@@ -45,17 +48,13 @@ body {
 .g1 img {
     height: 100%;
     width: 100%;
-    max-width: 450px;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px 0px white;
   }
 
 .g2 img {
     height: 100%;
     width: 100%;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px 0px white;
   }
+
 
 .g4 img {
     height: 100%;
@@ -409,20 +408,21 @@ a:visited {
   }
   
   .anybetHeading {
-    font-size: 64px;
+    font-size: 40px;
     font-family: sans-serif;
     text-shadow: 4px 4px 0px hsl(0, 100%, 31%);
     mix-blend-mode: screen;
     animation: fadeIn 5s linear alternate infinite;
     color: black;
     text-align: center;
-    margin: auto;
-    padding-top: 10px;
+    top: 50%; 
+    left: 50%;
+    font-size-adjust: 0.5;
   }
   
   @keyframes fadeIn {
-      
-      50% {
+          
+    50% {
           opacity: 0.75;
       }
     
@@ -433,8 +433,6 @@ a:visited {
     50% {
           opacity: 0.75;
       }
-    
-    
   }
 
 body > #anybetPage {
