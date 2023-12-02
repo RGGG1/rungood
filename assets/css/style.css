@@ -11,13 +11,13 @@ body {
 /*new layout*/
 
 .g1 {
-    width: 40vw;
-    height: 15vh;
+    width: 80vw;
+    height: 70vh;
     display: inline-block; 
     margin: 5vh 2vw 5vh 2vw; 
     padding: 0;
-    max-width: 250px;
-    max-height: 200px;
+    max-width: 300px;
+    max-height: 350px;
     border-radius: 2.5%;
     min-width: 150px;
 }
