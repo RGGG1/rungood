@@ -46,13 +46,13 @@ body {
 }
 
 .g1 img {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 30vw;
   }
 
 .g2 img {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: 30vw;
   }
 
 
