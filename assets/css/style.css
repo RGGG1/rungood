@@ -29,10 +29,11 @@ body {
 }
 
 .g1:hover {
-    box-shadow: 0 0 5px white,
-                0 0 25px white,
-                0 0 50px white,
-                0 0 100px white;
+    border: solid 3px green; 
+    box-shadow: 0 0 5px green,
+                0 0 25px green,
+                0 0 50px green,
+                0 0 100px green;
   }
 
 .g2 {
@@ -54,10 +55,11 @@ body {
 }
 
 .g2:hover {
-    box-shadow: 0 0 5px white,
-                0 0 25px white,
-                0 0 50px white,
-                0 0 100px white;
+    border: solid 3px green; 
+    box-shadow: 0 0 5px green,
+                0 0 25px green,
+                0 0 50px green,
+                0 0 100px green;
   }
 
 
@@ -145,8 +147,8 @@ margin-top: 1vh;
 margin-bottom: 2vh;
 margin-left: auto;
 margin-right: auto;
-border: 0.25vh solid grey;
 max-width: 600px;
+color: orange;
 }
 
 /*Game Area*/
@@ -455,10 +457,11 @@ a:visited {
   }
 
   .anybetBox:hover {
-    box-shadow: 0 0 5px white,
-                0 0 25px white,
-                0 0 50px white,
-                0 0 100px white;
+    border: solid 3px green; 
+    box-shadow: 0 0 5px green,
+                0 0 25px green,
+                0 0 50px green,
+                0 0 100px green;
   }
   
   
@@ -701,18 +704,18 @@ font-size: 50px;
 .waviy {
     position: relative;
     font-family: orbitron;
-    color: white;
+    color: green;
 
   }
   .waviy span {
     position: relative;
     display: inline-block;
-    font-size: 40px;
+    font-size: 65px;
     color: white;
     text-transform: uppercase;
-    animation: flip 5s infinite;
+    animation: flip 2.5s infinite;
     animation-delay: calc(.2s * var(--i));
-    color: white;
+    color: green;
     font-family: sans-serif;
     
   }
