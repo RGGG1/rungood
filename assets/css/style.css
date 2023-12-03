@@ -11,9 +11,9 @@ body {
 /*new layout*/
 
 .g1 {
-    width: 30vw;
+    width: 25vw;
     display: inline-block;  
-    margin: 5vh 5vw 5vh 5vw;      
+    margin: 5vh 2.5vw 5vh 2.5vw;      
     padding: 0;
     max-width: 250px;
     max-height: 20vh;
@@ -23,9 +23,9 @@ body {
 }
 
 .g2 {
-    width: 30vw;
+    width: 25vw;
     display: inline-block;  
-    margin: 5vh 5vw 5vh 5vw;      
+    margin: 5vh 2.5vw 5vh 2.5vw;      
     padding: 0;
     max-width: 250px;
     max-height: 20vh;
