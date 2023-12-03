@@ -1,7 +1,7 @@
 
 window.onload = choosePic; imgchangedraw1(); imgchangedraw2(); imgchangedraw3(); imgchangedraw4(); imgchangedraw5(); imgchangedraw6(); imgchangedraw7(); imgchangedraw8(); imgchangedraw9();
 
-var myPix = new Array("assets/cp1.png","assets/az1.png","assets/az1.png","assets/broh1.png","assets/cp1.png","assets/cdb1.png","assets/meeg1.png");
+var myPix = new Array("assets/Pat_6.png","assets/Pat_6.png","assets/Pat_6.png","assets/Pat_6.png","assets/Pat_6.png","assets/Pat_6.png","assets/Pat_6.png");
 
 function choosePic() {
      var randomNum = Math.floor(Math.random() * myPix.length);
@@ -11,12 +11,13 @@ function choosePic() {
 function imgchangedraw1() {
 
     var myImages1 = new Array();
-    myImages1[1] = "assets/cp1.png";
-    myImages1[2] = "assets/az1.png";
-    myImages1[3] = "assets/az1.png";
-    myImages1[4] = "assets/broh1.png";
-    myImages1[5] = "assets/cdb1.png";
-    myImages1[6] = "assets/meeg1.png";
+    myImages1[1] = "assets/Pat_1.png";
+    myImages1[2] = "assets/Pat_2.png";
+    myImages1[3] = "assets/Pat_3.png";
+    myImages1[4] = "assets/Pat_4.png";
+    myImages1[5] = "assets/Pat_5.png";
+    myImages1[6] = "assets/Pat_6.png";
+    myImages1[7] = "assets/Pat_7.png";
       var rnd = Math.floor(Math.random() * myImages1.length);
         if (rnd == 0) {
                 rnd = 1;
@@ -28,13 +29,13 @@ function imgchangedraw1() {
     function imgchangedraw2() {
 
         var myImages1 = new Array();
-        myImages1[1] = "assets/cp1.png";
-        myImages1[2] = "assets/az1.png";
-        myImages1[3] = "assets/bayc1.png";
-        myImages1[4] = "assets/broh1.png";
-        myImages1[5] = "assets/cdb1.png";
-        myImages1[6] = "assets/meeg1.png";
-        myImages1[7] = "assets/pp1.png";
+        myImages1[1] = "assets/Pat_1.png";
+    myImages1[2] = "assets/Pat_2.png";
+    myImages1[3] = "assets/Pat_3.png";
+    myImages1[4] = "assets/Pat_4.png";
+    myImages1[5] = "assets/Pat_5.png";
+    myImages1[6] = "assets/Pat_6.png";
+    myImages1[7] = "assets/Pat_7.png";
           var rnd2 = Math.floor(Math.random() * myImages1.length);
             if (rnd2 == 0) {
                     rnd2 = 1;
@@ -47,13 +48,13 @@ function imgchangedraw1() {
     function imgchangedraw3() {
 
         var myImages1 = new Array();
-        myImages1[1] = "assets/cp1.png";
-        myImages1[2] = "assets/az1.png";
-        myImages1[3] = "assets/bayc1.png";
-        myImages1[4] = "assets/broh1.png";
-        myImages1[5] = "assets/cdb1.png";
-        myImages1[6] = "assets/meeg1.png";
-        myImages1[7] = "assets/pp1.png";
+        myImages1[1] = "assets/Pat_1.png";
+    myImages1[2] = "assets/Pat_2.png";
+    myImages1[3] = "assets/Pat_3.png";
+    myImages1[4] = "assets/Pat_4.png";
+    myImages1[5] = "assets/Pat_5.png";
+    myImages1[6] = "assets/Pat_6.png";
+    myImages1[7] = "assets/Pat_7.png";
           var rnd3 = Math.floor(Math.random() * myImages1.length);
             if (rnd3 == 0) {
                     rnd3 = 1;
@@ -66,13 +67,13 @@ function imgchangedraw1() {
     function imgchangedraw4() {
 
         var myImages1 = new Array();
-        myImages1[1] = "assets/cp1.png";
-        myImages1[2] = "assets/az1.png";
-        myImages1[3] = "assets/bayc1.png";
-        myImages1[4] = "assets/broh1.png";
-        myImages1[5] = "assets/cdb1.png";
-        myImages1[6] = "assets/meeg1.png";
-        myImages1[7] = "assets/pp1.png";
+        myImages1[1] = "assets/Pat_1.png";
+    myImages1[2] = "assets/Pat_2.png";
+    myImages1[3] = "assets/Pat_3.png";
+    myImages1[4] = "assets/Pat_4.png";
+    myImages1[5] = "assets/Pat_5.png";
+    myImages1[6] = "assets/Pat_6.png";
+    myImages1[7] = "assets/Pat_7.png";
           var rnd4 = Math.floor(Math.random() * myImages1.length);
             if (rnd4 == 0) {
                     rnd4 = 1;
@@ -84,13 +85,13 @@ function imgchangedraw1() {
         function imgchangedraw5() {
 
             var myImages1 = new Array();
-            myImages1[1] = "assets/cp1.png";
-            myImages1[2] = "assets/az1.png";
-            myImages1[3] = "assets/bayc1.png";
-            myImages1[4] = "assets/broh1.png";
-            myImages1[5] = "assets/cdb1.png";
-            myImages1[6] = "assets/meeg1.png";
-            myImages1[7] = "assets/pp1.png";
+            myImages1[1] = "assets/Pat_1.png";
+    myImages1[2] = "assets/Pat_2.png";
+    myImages1[3] = "assets/Pat_3.png";
+    myImages1[4] = "assets/Pat_4.png";
+    myImages1[5] = "assets/Pat_5.png";
+    myImages1[6] = "assets/Pat_6.png";
+    myImages1[7] = "assets/Pat_7.png";
               var rnd5 = Math.floor(Math.random() * myImages1.length);
                 if (rnd5 == 0) {
                         rnd5 = 1;
@@ -102,13 +103,13 @@ function imgchangedraw1() {
         function imgchangedraw6() {
 
             var myImages1 = new Array();
-            myImages1[1] = "assets/cp1.png";
-            myImages1[2] = "assets/az1.png";
-            myImages1[3] = "assets/bayc1.png";
-            myImages1[4] = "assets/broh1.png";
-            myImages1[5] = "assets/cdb1.png";
-            myImages1[6] = "assets/meeg1.png";
-            myImages1[7] = "assets/pp1.png";
+            myImages1[1] = "assets/Pat_1.png";
+    myImages1[2] = "assets/Pat_2.png";
+    myImages1[3] = "assets/Pat_3.png";
+    myImages1[4] = "assets/Pat_4.png";
+    myImages1[5] = "assets/Pat_5.png";
+    myImages1[6] = "assets/Pat_6.png";
+    myImages1[7] = "assets/Pat_7.png";
               var rnd6 = Math.floor(Math.random() * myImages1.length);
                 if (rnd6 == 0) {
                         rnd6 = 1;
@@ -120,13 +121,13 @@ function imgchangedraw1() {
         function imgchangedraw7() {
 
             var myImages1 = new Array();
-            myImages1[1] = "assets/cp1.png";
-            myImages1[2] = "assets/az1.png";
-            myImages1[3] = "assets/bayc1.png";
-            myImages1[4] = "assets/broh1.png";
-            myImages1[5] = "assets/cdb1.png";
-            myImages1[6] = "assets/meeg1.png";
-            myImages1[7] = "assets/pp1.png";
+            myImages1[1] = "assets/Pat_1.png";
+    myImages1[2] = "assets/Pat_2.png";
+    myImages1[3] = "assets/Pat_3.png";
+    myImages1[4] = "assets/Pat_4.png";
+    myImages1[5] = "assets/Pat_5.png";
+    myImages1[6] = "assets/Pat_6.png";
+    myImages1[7] = "assets/Pat_7.png";
               var rnd7 = Math.floor(Math.random() * myImages1.length);
                 if (rnd7 == 0) {
                         rnd7 = 1;
@@ -138,13 +139,13 @@ function imgchangedraw1() {
     function imgchangedraw8() {
 
             var myImages1 = new Array();
-            myImages1[1] = "assets/cp1.png";
-            myImages1[2] = "assets/az1.png";
-            myImages1[3] = "assets/bayc1.png";
-            myImages1[4] = "assets/broh1.png";
-            myImages1[5] = "assets/cdb1.png";
-            myImages1[6] = "assets/meeg1.png";
-            myImages1[7] = "assets/pp1.png";
+            myImages1[1] = "assets/Pat_1.png";
+    myImages1[2] = "assets/Pat_2.png";
+    myImages1[3] = "assets/Pat_3.png";
+    myImages1[4] = "assets/Pat_4.png";
+    myImages1[5] = "assets/Pat_5.png";
+    myImages1[6] = "assets/Pat_6.png";
+    myImages1[7] = "assets/Pat_7.png";
               var rnd8 = Math.floor(Math.random() * myImages1.length);
                 if (rnd8 == 0) {
                         rnd8 = 1;
@@ -156,13 +157,13 @@ function imgchangedraw1() {
 function imgchangedraw9() {
 
             var myImages1 = new Array();
-                myImages1[1] = "assets/cp1.png";
-                myImages1[2] = "assets/az1.png";
-                myImages1[3] = "assets/bayc1.png";
-                myImages1[4] = "assets/broh1.png";
-                myImages1[5] = "assets/cdb1.png";
-                myImages1[6] = "assets/meeg1.png";
-                myImages1[7] = "assets/pp1.png";
+                myImages1[1] = "assets/Pat_1.png";
+    myImages1[2] = "assets/Pat_2.png";
+    myImages1[3] = "assets/Pat_3.png";
+    myImages1[4] = "assets/Pat_4.png";
+    myImages1[5] = "assets/Pat_5.png";
+    myImages1[6] = "assets/Pat_6.png";
+    myImages1[7] = "assets/Pat_7.png";
               var rnd9 = Math.floor(Math.random() * myImages1.length);
                 if (rnd9 == 0) {
                         rnd9 = 1;
@@ -218,7 +219,7 @@ function nftSpinTotalMatch() {
                     console.log(old1Score);
                     document.getElementById("gen-img1").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img1").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img1").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white";
+                    document.getElementById("gen-img1").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)";
                 } 
 
                 else {
@@ -234,7 +235,7 @@ function nftSpinTotalMatch() {
                     console.log(old2Score);
                     document.getElementById("gen-img2").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img2").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img2").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"             
+                    document.getElementById("gen-img2").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"             
                   } 
 
                 else {
@@ -250,7 +251,7 @@ function nftSpinTotalMatch() {
                     console.log(old3Score);  
                     document.getElementById("gen-img3").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img3").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img3").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"          
+                    document.getElementById("gen-img3").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"          
                   } 
 
                 else {
@@ -266,7 +267,7 @@ function nftSpinTotalMatch() {
                     console.log(old4Score);
                     document.getElementById("gen-img4").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img4").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img4").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"             
+                    document.getElementById("gen-img4").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"             
                   } 
 
                 else {
@@ -282,7 +283,7 @@ function nftSpinTotalMatch() {
                     console.log(old5Score); 
                     document.getElementById("gen-img5").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img5").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img5").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"            
+                    document.getElementById("gen-img5").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"            
                   } 
 
                 else {
@@ -298,7 +299,7 @@ function nftSpinTotalMatch() {
                     console.log(old6Score); 
                     document.getElementById("gen-img6").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img6").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img6").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"            
+                    document.getElementById("gen-img6").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"            
                   } 
 
                 else {
@@ -314,7 +315,7 @@ function nftSpinTotalMatch() {
                     console.log(old7Score);  
                     document.getElementById("gen-img7").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img7").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img7").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"           
+                    document.getElementById("gen-img7").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"           
                   } 
 
                 else {
@@ -330,7 +331,7 @@ function nftSpinTotalMatch() {
                     console.log(old8Score); 
                     document.getElementById("gen-img8").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img8").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img8").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"            
+                    document.getElementById("gen-img8").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"            
                   } 
 
                 else {
@@ -346,7 +347,7 @@ function nftSpinTotalMatch() {
                     console.log(old9Score); 
                     document.getElementById("gen-img9").style.borderColor = "4px hsl(0, 100%, 31%)";
                     document.getElementById("gen-img9").style.animation = "blink2 .5s step-end infinite alternate";
-                    document.getElementById("gen-img9").style.boxShadow = "0 0 5px white, 0 0 25px white, 0 0 50px white, 0 0 100px white"            
+                    document.getElementById("gen-img9").style.boxShadow = "0 0 5px hsl(0, 100%, 31%), 0 0 25px hsl(0, 100%, 31%), 0 0 50px hsl(0, 100%, 31%), 0 0 100px hsl(0, 100%, 31%)"            
                   } 
 
                 else {
