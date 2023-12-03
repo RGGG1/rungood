@@ -130,6 +130,10 @@ body {
     color: hsl(0, 100%, 31%);
 }
 
+a > .leftheader:visited {
+    color: hsl(0, 100%, 31%);
+}
+
 
 
 
@@ -426,7 +430,7 @@ a:link {
 }
 /* next the :visited pseudo class */
 a:visited {
-    color: hsl(0, 100%, 31%);
+    color: white;
 }
 
 
