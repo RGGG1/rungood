@@ -1,7 +1,7 @@
 
 window.onload = choosePic; imgchangedraw1(); imgchangedraw2(); imgchangedraw3(); imgchangedraw4(); imgchangedraw5(); imgchangedraw6(); imgchangedraw7(); imgchangedraw8(); imgchangedraw9();
 
-var myPix = new Array("broh1.png","cdb1.png","d1.png","f1.png","bayc1.png","az1.png","cp1.png");
+var myPix = new Array("assets/broh1.png","assets/meeg1.png","assets/d1.png","assets/pp1.png","assets/bayc1.png","assets/az1.png","assets/cp1.png");
 
 function choosePic() {
      var randomNum = Math.floor(Math.random() * myPix.length);
@@ -12,9 +12,9 @@ function imgchangedraw1() {
 
     var myImages1 = new Array();
     myImages1[1] = "assets/broh1.png";
-    myImages1[2] = "assets/cdb1.png";
+    myImages1[2] = "assets/meeg1.png";
     myImages1[3] = "assets/d1.png";
-    myImages1[4] = "assets/f1.png";
+    myImages1[4] = "assets/pp1.png";
     myImages1[5] = "assets/bayc1.png";
     myImages1[6] = "assets/az1.png";
     myImages1[7] = "assets/cp1.png";
@@ -30,9 +30,9 @@ function imgchangedraw1() {
 
         var myImages1 = new Array();
         myImages1[1] = "assets/broh1.png";
-    myImages1[2] = "assets/cdb1.png";
+    myImages1[2] = "assets/meeg1.png";
     myImages1[3] = "assets/d1.png";
-    myImages1[4] = "assets/f1.png";
+    myImages1[4] = "assets/pp1.png";
     myImages1[5] = "assets/bayc1.png";
     myImages1[6] = "assets/az1.png";
     myImages1[7] = "assets/cp1.png";
@@ -49,9 +49,9 @@ function imgchangedraw1() {
 
         var myImages1 = new Array();
         myImages1[1] = "assets/broh1.png";
-    myImages1[2] = "assets/cdb1.png";
+    myImages1[2] = "assets/meeg1.png";
     myImages1[3] = "assets/d1.png";
-    myImages1[4] = "assets/f1.png";
+    myImages1[4] = "assets/pp1.png";
     myImages1[5] = "assets/bayc1.png";
     myImages1[6] = "assets/az1.png";
     myImages1[7] = "assets/cp1.png";
@@ -68,9 +68,9 @@ function imgchangedraw1() {
 
         var myImages1 = new Array();
         myImages1[1] = "assets/broh1.png";
-    myImages1[2] = "assets/cdb1.png";
+    myImages1[2] = "assets/meeg1.png";
     myImages1[3] = "assets/d1.png";
-    myImages1[4] = "assets/f1.png";
+    myImages1[4] = "assets/pp1.png";
     myImages1[5] = "assets/bayc1.png";
     myImages1[6] = "assets/az1.png";
     myImages1[7] = "assets/cp1.png";
@@ -86,9 +86,9 @@ function imgchangedraw1() {
 
             var myImages1 = new Array();
             myImages1[1] = "assets/broh1.png";
-    myImages1[2] = "assets/cdb1.png";
+    myImages1[2] = "assets/meeg1.png";
     myImages1[3] = "assets/d1.png";
-    myImages1[4] = "assets/f1.png";
+    myImages1[4] = "assets/pp1.png";
     myImages1[5] = "assets/bayc1.png";
     myImages1[6] = "assets/az1.png";
     myImages1[7] = "assets/cp1.png";
@@ -104,9 +104,9 @@ function imgchangedraw1() {
 
             var myImages1 = new Array();
             myImages1[1] = "assets/broh1.png";
-    myImages1[2] = "assets/cdb1.png";
+    myImages1[2] = "assets/meeg1.png";
     myImages1[3] = "assets/d1.png";
-    myImages1[4] = "assets/f1.png";
+    myImages1[4] = "assets/pp1.png";
     myImages1[5] = "assets/bayc1.png";
     myImages1[6] = "assets/az1.png";
     myImages1[7] = "assets/cp1.png";
@@ -122,9 +122,9 @@ function imgchangedraw1() {
 
             var myImages1 = new Array();
             myImages1[1] = "assets/broh1.png";
-    myImages1[2] = "assets/cdb1.png";
+    myImages1[2] = "assets/meeg1.png";
     myImages1[3] = "assets/d1.png";
-    myImages1[4] = "assets/f1.png";
+    myImages1[4] = "assets/pp1.png";
     myImages1[5] = "assets/bayc1.png";
     myImages1[6] = "assets/az1.png";
     myImages1[7] = "assets/cp1.png";
@@ -140,9 +140,9 @@ function imgchangedraw1() {
 
             var myImages1 = new Array();
             myImages1[1] = "assets/broh1.png";
-    myImages1[2] = "assets/cdb1.png";
+    myImages1[2] = "assets/meeg1.png";
     myImages1[3] = "assets/d1.png";
-    myImages1[4] = "assets/f1.png";
+    myImages1[4] = "assets/pp1.png";
     myImages1[5] = "assets/bayc1.png";
     myImages1[6] = "assets/az1.png";
     myImages1[7] = "assets/cp1.png";
@@ -158,9 +158,9 @@ function imgchangedraw9() {
 
             var myImages1 = new Array();
             myImages1[1] = "assets/broh1.png";
-            myImages1[2] = "assets/cdb1.png";
+            myImages1[2] = "assets/meeg1.png";
             myImages1[3] = "assets/d1.png";
-            myImages1[4] = "assets/f1.png";
+            myImages1[4] = "assets/pp1.png";
             myImages1[5] = "assets/bayc1.png";
             myImages1[6] = "assets/az1.png";
             myImages1[7] = "assets/cp1.png";
