@@ -1,7 +1,7 @@
 
 window.onload = choosePic; imgchangedraw1(); imgchangedraw2(); imgchangedraw3(); imgchangedraw4(); imgchangedraw5(); imgchangedraw6(); imgchangedraw7(); imgchangedraw8(); imgchangedraw9();
 
-var myPix = new Array("assets/Pat_6.png","assets/Pat_6.png","assets/Pat_6.png","assets/Pat_6.png","assets/Pat_6.png","assets/Pat_6.png","assets/Pat_6.png");
+var myPix = new Array("broh1.png","cdb1.png","d1.png","f1.png","bayc1.png","az1.png","cp1.png");
 
 function choosePic() {
      var randomNum = Math.floor(Math.random() * myPix.length);
@@ -11,13 +11,13 @@ function choosePic() {
 function imgchangedraw1() {
 
     var myImages1 = new Array();
-    myImages1[1] = "assets/Pat_1.png";
-    myImages1[2] = "assets/Pat_2.png";
-    myImages1[3] = "assets/Pat_3.png";
-    myImages1[4] = "assets/Pat_4.png";
-    myImages1[5] = "assets/Pat_5.png";
-    myImages1[6] = "assets/Pat_6.png";
-    myImages1[7] = "assets/Pat_7.png";
+    myImages1[1] = "assets/broh1.png";
+    myImages1[2] = "assets/cdb1.png";
+    myImages1[3] = "assets/d1.png";
+    myImages1[4] = "assets/f1.png";
+    myImages1[5] = "assets/bayc1.png";
+    myImages1[6] = "assets/az1.png";
+    myImages1[7] = "assets/cp1.png";
       var rnd = Math.floor(Math.random() * myImages1.length);
         if (rnd == 0) {
                 rnd = 1;
@@ -29,13 +29,13 @@ function imgchangedraw1() {
     function imgchangedraw2() {
 
         var myImages1 = new Array();
-        myImages1[1] = "assets/Pat_1.png";
-    myImages1[2] = "assets/Pat_2.png";
-    myImages1[3] = "assets/Pat_3.png";
-    myImages1[4] = "assets/Pat_4.png";
-    myImages1[5] = "assets/Pat_5.png";
-    myImages1[6] = "assets/Pat_6.png";
-    myImages1[7] = "assets/Pat_7.png";
+        myImages1[1] = "assets/broh1.png";
+    myImages1[2] = "assets/cdb1.png";
+    myImages1[3] = "assets/d1.png";
+    myImages1[4] = "assets/f1.png";
+    myImages1[5] = "assets/bayc1.png";
+    myImages1[6] = "assets/az1.png";
+    myImages1[7] = "assets/cp1.png";
           var rnd2 = Math.floor(Math.random() * myImages1.length);
             if (rnd2 == 0) {
                     rnd2 = 1;
@@ -48,13 +48,13 @@ function imgchangedraw1() {
     function imgchangedraw3() {
 
         var myImages1 = new Array();
-        myImages1[1] = "assets/Pat_1.png";
-    myImages1[2] = "assets/Pat_2.png";
-    myImages1[3] = "assets/Pat_3.png";
-    myImages1[4] = "assets/Pat_4.png";
-    myImages1[5] = "assets/Pat_5.png";
-    myImages1[6] = "assets/Pat_6.png";
-    myImages1[7] = "assets/Pat_7.png";
+        myImages1[1] = "assets/broh1.png";
+    myImages1[2] = "assets/cdb1.png";
+    myImages1[3] = "assets/d1.png";
+    myImages1[4] = "assets/f1.png";
+    myImages1[5] = "assets/bayc1.png";
+    myImages1[6] = "assets/az1.png";
+    myImages1[7] = "assets/cp1.png";
           var rnd3 = Math.floor(Math.random() * myImages1.length);
             if (rnd3 == 0) {
                     rnd3 = 1;
@@ -67,13 +67,13 @@ function imgchangedraw1() {
     function imgchangedraw4() {
 
         var myImages1 = new Array();
-        myImages1[1] = "assets/Pat_1.png";
-    myImages1[2] = "assets/Pat_2.png";
-    myImages1[3] = "assets/Pat_3.png";
-    myImages1[4] = "assets/Pat_4.png";
-    myImages1[5] = "assets/Pat_5.png";
-    myImages1[6] = "assets/Pat_6.png";
-    myImages1[7] = "assets/Pat_7.png";
+        myImages1[1] = "assets/broh1.png";
+    myImages1[2] = "assets/cdb1.png";
+    myImages1[3] = "assets/d1.png";
+    myImages1[4] = "assets/f1.png";
+    myImages1[5] = "assets/bayc1.png";
+    myImages1[6] = "assets/az1.png";
+    myImages1[7] = "assets/cp1.png";
           var rnd4 = Math.floor(Math.random() * myImages1.length);
             if (rnd4 == 0) {
                     rnd4 = 1;
@@ -85,13 +85,13 @@ function imgchangedraw1() {
         function imgchangedraw5() {
 
             var myImages1 = new Array();
-            myImages1[1] = "assets/Pat_1.png";
-    myImages1[2] = "assets/Pat_2.png";
-    myImages1[3] = "assets/Pat_3.png";
-    myImages1[4] = "assets/Pat_4.png";
-    myImages1[5] = "assets/Pat_5.png";
-    myImages1[6] = "assets/Pat_6.png";
-    myImages1[7] = "assets/Pat_7.png";
+            myImages1[1] = "assets/broh1.png";
+    myImages1[2] = "assets/cdb1.png";
+    myImages1[3] = "assets/d1.png";
+    myImages1[4] = "assets/f1.png";
+    myImages1[5] = "assets/bayc1.png";
+    myImages1[6] = "assets/az1.png";
+    myImages1[7] = "assets/cp1.png";
               var rnd5 = Math.floor(Math.random() * myImages1.length);
                 if (rnd5 == 0) {
                         rnd5 = 1;
@@ -103,13 +103,13 @@ function imgchangedraw1() {
         function imgchangedraw6() {
 
             var myImages1 = new Array();
-            myImages1[1] = "assets/Pat_1.png";
-    myImages1[2] = "assets/Pat_2.png";
-    myImages1[3] = "assets/Pat_3.png";
-    myImages1[4] = "assets/Pat_4.png";
-    myImages1[5] = "assets/Pat_5.png";
-    myImages1[6] = "assets/Pat_6.png";
-    myImages1[7] = "assets/Pat_7.png";
+            myImages1[1] = "assets/broh1.png";
+    myImages1[2] = "assets/cdb1.png";
+    myImages1[3] = "assets/d1.png";
+    myImages1[4] = "assets/f1.png";
+    myImages1[5] = "assets/bayc1.png";
+    myImages1[6] = "assets/az1.png";
+    myImages1[7] = "assets/cp1.png";
               var rnd6 = Math.floor(Math.random() * myImages1.length);
                 if (rnd6 == 0) {
                         rnd6 = 1;
@@ -121,13 +121,13 @@ function imgchangedraw1() {
         function imgchangedraw7() {
 
             var myImages1 = new Array();
-            myImages1[1] = "assets/Pat_1.png";
-    myImages1[2] = "assets/Pat_2.png";
-    myImages1[3] = "assets/Pat_3.png";
-    myImages1[4] = "assets/Pat_4.png";
-    myImages1[5] = "assets/Pat_5.png";
-    myImages1[6] = "assets/Pat_6.png";
-    myImages1[7] = "assets/Pat_7.png";
+            myImages1[1] = "assets/broh1.png";
+    myImages1[2] = "assets/cdb1.png";
+    myImages1[3] = "assets/d1.png";
+    myImages1[4] = "assets/f1.png";
+    myImages1[5] = "assets/bayc1.png";
+    myImages1[6] = "assets/az1.png";
+    myImages1[7] = "assets/cp1.png";
               var rnd7 = Math.floor(Math.random() * myImages1.length);
                 if (rnd7 == 0) {
                         rnd7 = 1;
@@ -139,13 +139,13 @@ function imgchangedraw1() {
     function imgchangedraw8() {
 
             var myImages1 = new Array();
-            myImages1[1] = "assets/Pat_1.png";
-    myImages1[2] = "assets/Pat_2.png";
-    myImages1[3] = "assets/Pat_3.png";
-    myImages1[4] = "assets/Pat_4.png";
-    myImages1[5] = "assets/Pat_5.png";
-    myImages1[6] = "assets/Pat_6.png";
-    myImages1[7] = "assets/Pat_7.png";
+            myImages1[1] = "assets/broh1.png";
+    myImages1[2] = "assets/cdb1.png";
+    myImages1[3] = "assets/d1.png";
+    myImages1[4] = "assets/f1.png";
+    myImages1[5] = "assets/bayc1.png";
+    myImages1[6] = "assets/az1.png";
+    myImages1[7] = "assets/cp1.png";
               var rnd8 = Math.floor(Math.random() * myImages1.length);
                 if (rnd8 == 0) {
                         rnd8 = 1;
@@ -157,13 +157,13 @@ function imgchangedraw1() {
 function imgchangedraw9() {
 
             var myImages1 = new Array();
-                myImages1[1] = "assets/Pat_1.png";
-    myImages1[2] = "assets/Pat_2.png";
-    myImages1[3] = "assets/Pat_3.png";
-    myImages1[4] = "assets/Pat_4.png";
-    myImages1[5] = "assets/Pat_5.png";
-    myImages1[6] = "assets/Pat_6.png";
-    myImages1[7] = "assets/Pat_7.png";
+            myImages1[1] = "assets/broh1.png";
+            myImages1[2] = "assets/cdb1.png";
+            myImages1[3] = "assets/d1.png";
+            myImages1[4] = "assets/f1.png";
+            myImages1[5] = "assets/bayc1.png";
+            myImages1[6] = "assets/az1.png";
+            myImages1[7] = "assets/cp1.png";
               var rnd9 = Math.floor(Math.random() * myImages1.length);
                 if (rnd9 == 0) {
                         rnd9 = 1;
